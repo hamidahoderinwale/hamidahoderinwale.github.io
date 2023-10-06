@@ -1,0 +1,9 @@
+body {
+    line-height: 1.5;
+    font-size: 16px;
+    padding-left: 15%;
+    padding-right: 15%;
+    max-width: 70ch;
+    padding-top: 5%;
+    font-family: 'Helvetica Neue', sans-serif;
+  }
