@@ -57,14 +57,6 @@ Though it’s nice to have a personal core curriculum  - a set of tools to sharp
 
 The university experience seems good at executing this. I say "good" because university imposes constraints, not in an abhorrent way, as dropout fanatics might argue, but I agree effective self-directed learning is invaluable. 
 
-Now, is time spent writing for this stupid blog time wasted? Perhaps. As much as I build up this idea of my future self being able to tackle all the disparate skills on her vision board, we’re capped by time and energy. 
-
-Frankly, I’m not inclined to become the type of writer who would win a Pulitzer ([and I don’t think most aspiring writers should either](https://malwarwickonbooks.com/how-much-is-a-pulitzer-prize-worth/)). 
-
-Generally, the centre of my motivation comes from having a medium to convey my beliefs.  I’m excited by the prospect of having my *stupid writing* as a memento I can return to. 
-
-In the future, perhaps the value extends beyond me, contingent on doing something substantial.
-
 However, writing, especially in the new approach I’ve adopted, gives me a space to think about topics that extend to more tangible projects. It provides room for creativity before doing the real stuff and forces me actually to do something, *[not end the week with nothing](https://training.kalzumeus.com/newsletters/archive/do-not-end-the-week-with-nothing?curius=1417,2642,2438)*. 
 
 Having a minimum biweekly commitment is enough of an anxiety inducer that, at the very least, I can look back at a couple hundred words of output every two weeks. 
