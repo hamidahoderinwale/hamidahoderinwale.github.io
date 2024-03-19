@@ -4,8 +4,9 @@ body {
     padding-left: 10%;
     padding-right: 10%;
     padding-top: 10%;
-    font-family: "Georgia", sans-serif;
-    background-color: #FFFDF7;
+    font-family: "Georgia", serif;
+    background-color: #F6F6F4;
+    color: #141019;
 }
   
   .profile-image {
@@ -23,7 +24,7 @@ body {
 
   
   .sidenote::before {
-    ontent: attr(data-sidenote);
+   content: attr(data-sidenote);
         position: absolute;
         top: -1.5em; /* Adjust as needed */
         left: calc(100% + 0.5em); /* Adjust as needed */
