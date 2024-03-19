@@ -22,3 +22,16 @@ body {
   }
 
   
+  .sidenote::before {
+    ontent: attr(data-sidenote);
+        position: absolute;
+        top: -1.5em; /* Adjust as needed */
+        left: calc(100% + 0.5em); /* Adjust as needed */
+        font-size: 0.8em;
+        background-color: #f0f0f0; /* Sidenote background color */
+        padding: 0.2em 0.5em;
+        border: 1px solid #ccc; /* Sidenote border */
+        border-radius: 0.25em;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow */
+        white-space: nowrap;
+  }
