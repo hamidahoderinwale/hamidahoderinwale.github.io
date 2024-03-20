@@ -5,14 +5,18 @@ body {
     padding-right: 15%;
     max-width: 70ch;
     padding-top: 5%;
-    font-family: "Georgia", serif;
+    font-family: "Helvetica Neue", sans-serif;
     background-color: #FFFFFF;
     color: #000000;
     line-height: 1.5;
   }
 
+  p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+
   a {
-    color: #957964;
+    color: #000000;
     transition: color 0.3s ease; /* Smooth transition over 0.3 seconds */
   }
   
