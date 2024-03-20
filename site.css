@@ -5,11 +5,20 @@ body {
     padding-right: 10%;
     padding-top: 10%;
     font-family: "Georgia", serif;
-    background-color: #F5F5F5;
+    background-color: #FFFFFF;
     color: #0D0E1C;
     line-height: 1.5;
 }
   
+a {
+  color: #957964;
+  transition: color 0.3s ease; /* Smooth transition over 0.3 seconds */
+}
+
+a:hover {
+  color: #264DF7; /* Change color to #6F2DBD on hover */
+}
+
   .profile-image {
     max-width: 130px;
     height: auto;
