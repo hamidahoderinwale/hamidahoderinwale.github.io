@@ -1,12 +1,13 @@
 body {
     line-height: 1.4;
-    font-size: 17px;
+    font-size: 15px;
     padding-left: 10%;
     padding-right: 10%;
     padding-top: 10%;
     font-family: "Georgia", serif;
-    background-color: #F6F6F4;
-    color: #141019;
+    background-color: #F5F5F5;
+    color: #0D0E1C;
+    line-height: 1.5;
 }
   
   .profile-image {
@@ -29,7 +30,7 @@ body {
         top: -1.5em; /* Adjust as needed */
         left: calc(100% + 0.5em); /* Adjust as needed */
         font-size: 0.8em;
-        background-color: #f0f0f0; /* Sidenote background color */
+        background-color: #F7EDE2; /* Sidenote background color */
         padding: 0.2em 0.5em;
         border: 1px solid #ccc; /* Sidenote border */
         border-radius: 0.25em;

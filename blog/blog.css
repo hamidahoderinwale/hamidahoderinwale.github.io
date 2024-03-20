@@ -5,7 +5,8 @@ body {
     padding-right: 15%;
     max-width: 70ch;
     padding-top: 5%;
-    font-family: 'Georgia', serif;
-    background-color: #F8F6F2;
-    color: #191510;
+    font-family: "Georgia", serif;
+    background-color: #F5F5F5;
+    color: #0D0E1C;
+    line-height: 1.5;
   }
