@@ -17,6 +17,9 @@ a {
   color: #425561;
 }
 
+a:hover {
+  color: #1F7A8C; /* Change color to #6F2DBD on hover */
+}
 
   .profile-image {
     max-width: 130px;
