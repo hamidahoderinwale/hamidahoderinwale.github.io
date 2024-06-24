@@ -4,7 +4,7 @@ body {
     line-height: 1.5;
     font-size: 0.8rem; /* Using rem for font size */
     padding: 7% 7% 10%; /* Using percentages for padding */
-    font-family: 'Century Schoolbook, sans-serif; /* Simplified font-family declaration */
+    font-family: 'Century Schoolbook', sans-serif; /* Simplified font-family declaration */
     background-color: #f6fbff;
     color: #000e16;
 }
