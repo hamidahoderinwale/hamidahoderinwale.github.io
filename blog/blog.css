@@ -21,9 +21,9 @@ body {
 
   a {
     color: #425561;
-    transition: color 0.3s ease; /* Smooth transition over 0.3 seconds */
+    transition: color 0.3s ease; 
   }
   
   a:hover {
-    color: #1F7A8C; /* Change color to #6F2DBD on hover */
+    color: #1F7A8C; 
   }
