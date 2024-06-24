@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Finlandica:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/century-schoolbook');
 
 body {
     line-height: 1.5;
     font-size: 0.8rem; /* Using rem for font size */
     padding: 7% 7% 10%; /* Using percentages for padding */
-    font-family: Helvetica , sans-serif; /* Simplified font-family declaration */
+    font-family: 'Century Schoolbook, sans-serif; /* Simplified font-family declaration */
     background-color: #f6fbff;
     color: #000e16;
 }
