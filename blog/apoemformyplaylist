@@ -1,1 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whoosh - Reflective Essay</title>
+    <style>
+        body {
+            color: #333;
+            margin: 10% 20%;
+            font-family: 'Times New Roman', Times, serif;
+            padding: 0;
+            font-size: 20px;
+        }
 
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>A Poem for my Playlist</h1>
+    <p>Posted on the 25th of June (2024).</p>
+</header>
+
+<main>
+   <p>Something to keep for my heart.</p>
+        <p>It's all in an effort to feel something, be something.</p>
+        <p>And because of it, we always need something, want something.</p>
+        <p>Maybe it's not worth it to try...but it's all I've ever known.</p>
+        <p>Whispers, tears, songs and cries.</p>
+        <p>Wishes, prayers, and heartbeats.</p>
+</main>
+
+
+</body>
+</html>
