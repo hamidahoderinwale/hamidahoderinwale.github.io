@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
+
 
 body {
     line-height: 1.5;
@@ -12,7 +12,7 @@ body {
     line-height: 1.5;
     font-size: 0.8rem; 
     padding: 5% 7% 10%; 
-    font-family: 'Libre Franklin', sans-serif;                                        
+    font-family:  sans-serif;                                        
     background-color: #F1F6F9;
     color: #000000;
 }
