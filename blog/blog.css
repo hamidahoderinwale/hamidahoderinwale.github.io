@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Finlandica:ital,wght@0,400..700;1,400..700&display=swap');
+
 
 body {
     line-height: 1.5;
@@ -10,20 +10,20 @@ body {
 
 body {
     line-height: 1.5;
-    font-size: 0.8rem; /* Using rem for font size */
-    padding: 5% 7% 10%; /* Using percentages for padding */
-    font-family: 'finlandica', sans-serif; /* Simplified font-family declaration */
-    background-color: #f6fbff;
-    color: #021927;
+    font-size: 0.8rem; 
+    padding: 5% 7% 10%; 
+    font-family:  sans-serif;                                        
+    background-color: #E9EBED;
+    color: #000000;
 }
 
 
 
   a {
-    color: #425561;
-    transition: color 0.3s ease; /* Smooth transition over 0.3 seconds */
+    color: #5C5D67;
+    transition: color 0.3s ease; 
   }
   
   a:hover {
-    color: #1F7A8C; /* Change color to #6F2DBD on hover */
+    color: #520012; 
   }

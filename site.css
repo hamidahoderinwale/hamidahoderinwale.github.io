@@ -1,21 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Finlandica:ital,wght@0,400..700;1,400..700&display=swap');
+
 
 body {
     line-height: 1.5;
     font-size: 0.8rem; /* Using rem for font size */
     padding: 7% 7% 10%; /* Using percentages for padding */
-    font-family: 'finlandica', sans-serif; /* Simplified font-family declaration */
-    background-color: #f6fbff;
-    color: #000e16;
+    font-family: sans-serif; /* Simplified font-family declaration */
+    background-color: #E9EBED;
+    color: #000000;
 }
 
 
 a {
-    color: #425561;
+    color: #5C5D67;
 }
 
 a:hover {
-    color: #1F7A8C;
+    color: #520012;
 }
 
 .profile-image {
