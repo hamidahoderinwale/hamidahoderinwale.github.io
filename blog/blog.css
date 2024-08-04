@@ -12,7 +12,7 @@ body {
     line-height: 1.5;
     font-size: 0.8rem; 
     padding: 5% 7% 10%; 
-    font-family:  "Helvetica Neue",sans-serif;                                        
+    font-family: ui-sans-serif, "Helvetica", "Arial", sans-serif;                                        
     background-color: #E9EBED;
     color: #000000;
 }
