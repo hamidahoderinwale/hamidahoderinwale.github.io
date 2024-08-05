@@ -1,43 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
 
-
-body {
-    line-height: 1.5;
-    font-size: 0.8rem; /* Using rem for font size */
-    padding: 7% 7% 10%; /* Using percentages for padding */
-    font-family: ui-sans-serif, "Helvetica", "Arial", sans-serif; 
-    background-color: #E9EBED;
-    color: #000000;
+html {
+  background-color: #66666e;
 }
 
+body {
+  line-height: 1.3;
+  font-size: 0.9rem; 
+  background-color: #F6F5F4;
+  color: #000;
+  margin: 50px;
+  padding: 35px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  max-width: 80ch;
+  border: 2px solid #000; 
+  overflow: hidden; /* Ensures no overflow from the body container */
+}
 
 a {
-    color: #5C5D67;
+  color: #5C5D67;
+  transition: color 0.3s ease; 
 }
 
 a:hover {
-    color: #520012;
+  color: #520012; 
 }
 
 .profile-image {
-    max-width: 18%; /* Using percentage for max-width */
-    max-height: auto; /* Allowing height to adjust with width */
-    float: left;
-    margin-right: 4%; /* Using percentage for margin */
-    display: block;
+  max-width: 100px; /* Limit the maximum width of the image */
+  height: auto; /* Maintain aspect ratio */
+  border: 2px solid #000; 
+  float: left;
+  margin-right: 2%; /* Space between image and text */
+  display: block;
+  box-sizing: border-box; /* Ensure border and padding are included in width calculation */
 }
 
-
-
-.sidenote::before {
-    content: attr(data-sidenote);
-    position: absolute;
-    top: -1.5em;
-    left: calc(100% + 0.5em);
-    font-size: 0.8em;
-    background-color: #F7EDE2;
-    padding: 0.2em 0.5em;
-    border: 1px solid #ccc;
-    border-radius: 0.25em;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
-    white-space: nowrap;
+/* Ensure that text wraps properly around the image */
+body img {
+  display: inline-block; /* Ensures proper wrapping around the image */
+  vertical-align: middle; /* Al
 }
