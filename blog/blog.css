@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Finlandica:ital,wght@0,400..700;1,400..700&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap');
 
 html {
   background-color: #66666e;
@@ -11,7 +11,7 @@ body {
   background-color: #F6F5F4;
   padding: 25px;
   margin: 40px 60px;
-  font-family: 'Finlandica', 'Avenir', sans-serif;
+  font-family: 'Volkorn', 'Georgia', sans-serif;
   max-width: 55ch;
   border: 2px solid #001021;
 
