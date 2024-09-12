@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Finlandica:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap');
 
 html {
   background-color: #66666e;
@@ -11,7 +11,7 @@ body {
   color: #000;
   margin: 50px;
   padding: 35px;
-  font-family: 'Finlandica', 'Avenir', sans-serif;
+  font-family: 'Volkorn', 'Avenir', sans-serif;
   max-width: 80ch;
   border: 2px solid #000; 
   overflow: hidden; /* Ensures no overflow from the body container */
