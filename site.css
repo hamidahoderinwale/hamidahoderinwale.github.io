@@ -27,7 +27,7 @@ a:hover {
 }
 
 .profile-image {
-  max-width: 100px; /* Limit the maximum width of the image */
+  max-width: 115px; /* Limit the maximum width of the image */
   height: auto; /* Maintain aspect ratio */
   border: 2px solid #000; 
   float: left;
