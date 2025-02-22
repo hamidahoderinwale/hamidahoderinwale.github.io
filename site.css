@@ -1,43 +1,51 @@
-@import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap');
-
+    @import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap');
 html {
-  background-color: #66666e;
+    background-color: #66666e;
 }
 
 body {
-  line-height: 1.3;
-  font-size: 0.9rem; 
-  background-color: #F6F5F4;
-  color: #000;
-  margin: 10px;
-  padding: 35px;
-  font-family: 'Optima', 'Helvetica', 'Arial', sans-serif;
-  max-width: 85ch;
-  border: 2px solid #000; 
-  overflow: hidden; /* Ensures no overflow from the body container */
+    line-height: 1.3;
+    font-size: 0.9rem;
+    background-color: #F6F5F4;
+    color: #000;
+    margin: 10px;
+    padding: 35px;
+    font-family: 'Optima', 'Helvetica', 'Arial', sans-serif;
+    max-width: 85ch;
+    border: 2px solid #000;
+    overflow: hidden;
+    /* Ensures no overflow from the body container */
 }
 
 a {
-  color: #5C5D67;
-  transition: color 0.3s ease; 
+    color: #5C5D67;
+    transition: color 0.3s ease;
 }
 
 a:hover {
-  color: #520012; 
+    color: #520012;
 }
 
 .profile-image {
-  max-width: 115px; /* Limit the maximum width of the image */
-  height: auto; /* Maintain aspect ratio */
-  border: 2px solid #000; 
-  float: left;
-  margin-right: 2%; /* Space between image and text */
-  display: block;
-  box-sizing: border-box; /* Ensure border and padding are included in width calculation */
+    max-width: 115px;
+    /* Limit the maximum width of the image */
+    height: auto;
+    /* Maintain aspect ratio */
+    border: 2px solid #000;
+    float: left;
+    margin-right: 2%;
+    /* Space between image and text */
+    display: block;
+    box-sizing: border-box;
+    /* Ensure border and padding are included in width calculation */
 }
 
+
 /* Ensure that text wraps properly around the image */
+
 body img {
-  display: inline-block; /* Ensures proper wrapping around the image */
-  vertical-align: middle; /* Al
+    display: inline-block;
+    /* Ensures proper wrapping around the image */
+    vertical-align: middle;
+    /* Al
 }
