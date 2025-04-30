@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Representation as Stack</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="blog.css">
+  </head>
+  <header>
+    <nav>
+      <a href="https://hamidah.me" target="_blank">Home</a> | 
+      <a href="blog.html" target="_blank">Writing</a> | 
+      <a href="readme.html" target="_blank">Read Me</a>
+    </nav>
+  </header>
+  <body>
+    <h2>Representation as Stack</h2>
+    <p><i>Wednesday, April 30, 2025</i></p>
+    <em>Some very rough, quick thoughts.</em>
+    <hr>
+    <p>Here, I’m presenting an instance of vibes-research. The process is basically me asking an LLM questions the way you would in any chat, but I’d like to think that the distinguishing feature of “vibes-research” — compared to a normal Q&amp;A — is that there’s some train of thought behind it.</p>
+
+    <p>The conversation started with me wondering what happens when underlying architectures, tools, and paradigms change — what happens to researchers and fields that depend on them? My motivation was to understand: are incumbent fields rendered useless by new approaches?</p>
+
+    <p><a href="https://en.wikipedia.org/wiki/Sepp_Hochreiter">Sepp Hochreiter</a> and <a href="https://en.wikipedia.org/wiki/J%C3%BCrgen_Schmidhuber">Jürgen Schmidhuber</a> came up with the <a href="https://www.bioinf.jku.at/publications/older/2604.pdf">LSTM</a> (Long Short-Term Memory) in 1997. Going through Schmidhuber’s site and Google Scholar, it looks like he still publishes a very fair amount. His work now covers newer work like <a href="https://arxiv.org/abs/2405.17283">autoencoders</a>, empirical research with “productified” models like GPT-4o, and architectures like Transformers.</p>
+
+    <p>ChatGPT responded correctly, saying that those with broad, conceptual knowledge often adapt. They understand new methods and continue to make advancements. Furthermore, it’s safe to say that LSTMs were an inspiration for their successors.</p>
+
+    <p>Anyway, I don’t think LSTMs were the best test-bed for my initial question. You know what really changed the game? Vectors — or rather, tensors. In some sense, we got a new vector when the tensor came around. Tensors have been around since 1898, but for machine learning, they really solidified themselves as the core representation in the early 2000s — which isn’t that long ago.</p>
+
+    <p>In 2009, Sutskever proposed <a href="https://papers.nips.cc/paper_files/paper/2009/hash/5705e1164a8394aace6018e27d20d237-Abstract.html">Bayesian Clustered Tensor Factorization</a> to model relational concepts while reducing the parameter space, and it was CNNs that really adopted tensors as the core representation for data in neural networks. Thus, future architectures took the tensor as their default representation.</p>
+
+    <p>That said, the uprooting of old paradigms for new ones might be especially interesting to study at the level of representation — specifically, how human-readable data is encoded. ChatGPT helped me intuit the current stack of representation, which, in today's paradigm, can be summarized fairly clearly. (The ubiquity of Python is another interesting piece to look at.)</p>
+
+    <p>Even static typing isn’t really used in ML. I’ve heard of RustTorch and HaskTorch projects, but I imagine the language will follow the representation — and typing alone won't be enough to trigger a switch. Furthermore, if you’re quantizing, then you want dynamism and variance. In that case, the goal is more type tracking (for precision, etc.) rather than traditional type-checking.</p>
+
+    <p>That said, ChatGPT then raised an interesting case where you have an “extended type system might look like in future ML — for example, a type that tracks not just &quot;float32&quot; but also &quot;quantized from float32 with ±3% error&quot;?”</p>
+
+    <blockquote>
+      <p><strong>How would <em>new representations</em> (beyond tensors) change the <em>stack</em> — and what does that mean for <em>how people program</em>?</strong></p>
+    </blockquote>
+
+    <h3>How programming will change</h3>
+
+    <blockquote>
+      <p><strong>Today:</strong></p>
+      <ul>
+        <li>Programming ML = declaring tensor operations.</li>
+        <li>You think in terms of <strong>arrays</strong> and <strong>functions</strong> on arrays.</li>
+      </ul>
+
+      <p><strong>Future (with new representations):</strong></p>
+      <ul>
+        <li>Programming ML = declaring <strong>local behaviors</strong>, <strong>graph rewrites</strong>, <strong>procedures attached to data</strong>.</li>
+        <li>You think in terms of <strong>local programs</strong>, <strong>flows</strong>, <strong>patches</strong>, and <strong>dynamical systems</strong> — not just tensors.</li>
+      </ul>
+
+      <p><strong>Programmers might have to:</strong></p>
+      <ul>
+        <li>Specify <strong>local transformations</strong> rather than just matrix ops.</li>
+        <li>Deal with <strong>irregular structures</strong> much more naturally.</li>
+        <li>Rely on <strong>higher-level declarative specifications</strong> (&quot;this space should be smooth&quot;, &quot;this patch interacts with that one&quot;) and let compilers figure out efficient execution.</li>
+      </ul>
+    </blockquote>
+
+    <p>Initially, it suggested that given the current stack, at the language-layer we would just see Python with specs for new representations.</p>
+
+    <p>I then asked how programming languages might change.</p>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Path</th>
+          <th>What Changes</th>
+          <th>Example</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Python Evolution</strong></td>
+          <td>Python is <em>augmented</em> with new types and compilers that reinterpret your code.</td>
+          <td>Like <strong>Triton</strong> and <strong>Mojo</strong>: still Python-looking, but compiles to efficient IR and machine code.</td>
+        </tr>
+        <tr>
+          <td><strong>New DSLs</strong> (Domain-Specific Languages)</td>
+          <td>Specialized new languages designed for structure-first ML.</td>
+          <td>Like <strong>DiffTaichi</strong> for physics simulation; you describe computations differently.</td>
+        </tr>
+        <tr>
+          <td><strong>Fully New Languages</strong></td>
+          <td>Radical new designs for &quot;composable dynamic systems&quot; — replacing tensor-first thinking entirely.</td>
+          <td>No real-world examples yet at scale, but <strong>Metaprogramming Graph DSLs</strong> and <strong>functorial ML</strong> research points here.</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <blockquote>
+      <p>The <em>language</em> might still look like Python for a while, but <strong>the mental model you need to have changes massively</strong>.</p>
+    </blockquote>
+
+    <h3>Takeaways:</h3>
+
+    <p>I think this would serve as a decent basis to actually begin the research. I could imagine asking ChatGPT to conceptualize a new representation stack for the future, but given this, it would probably be too broad in scope. Your new representation stack should be grounded in some real-world motivation — for example, observing the needs of a robotics planner. Then, you would need to find a way to measure efficacy, and so on. ChatGPT could probably assist well with these steps too.</p>
+
+    <p>However, the <em>last mile</em> — intuiting how something would actually be used in the real world and polishing it into a usable product — is what I find takes the most time in any project. That said, I'm fairly sure that coming up with something like the above using only a search engine, or by going through textbooks and papers the traditional way, would have taken much longer.</p>
+
+    <p>Deciding that this was a path worth pursuing could be attributed to some form of “expertise.” Economists studying LLMs and research claim that this is why we haven’t yet "recursed into intellectual Narnia": fitting concepts together remains the hard — and interesting — part. Still, it was nice to quickly get broad sweeps of existing fields without having to do tedious library work.</p>
+
+    <p>Like Schmidhuber, I think a major benefit of LLMs is how they can make research more enjoyable, helping eliminate a good fraction of the annoying parts. On the flip side, it seems plausible that more junior researchers like myself don’t always "pay our dues" — we do fewer reps, we get lazy. We gloss over the finer-grained patterns of the world and of our fields, ask "worse" questions, and form "worse" hypotheses. We risk operating at a level of abstraction too high to make truly meaningful theoretical progress.</p>
+
+    <p>That said, I’m not sure Vaswani et al. needed to know how to write a device driver from scratch to develop their work. But if they did, I’m curious what kind of tacit learning influenced their work.</p>
+  </body>
+</html>
