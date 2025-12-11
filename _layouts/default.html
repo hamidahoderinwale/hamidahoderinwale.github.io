@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="{{ '/site.css' | relative_url }}">
+    <link rel="shortcut icon" type="image/png" href="{{ '/android-chrome-512x512.png' | relative_url }}"/>
+    <link rel="alternate" type="application/rss+xml" title="Hamidah's Blog RSS Feed" href="{{ '/feed.xml' | relative_url }}">
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+</head>
+<body>
+    <nav>
+        <a href="{{ '/' | relative_url }}">Home</a> | 
+        <a href="{{ '/blog/blog.html' | relative_url }}">Posts</a> | 
+        <a href="{{ '/blog/readme.html' | relative_url }}">Read Me</a> | 
+        <a href="{{ '/lof/' | relative_url }}" target="_blank">Lof</a> | 
+        <a href="{{ '/blog/more.html' | relative_url }}">More</a> | 
+        <a href="https://curius.app/hamidah-oderinwale" target="_blank">Curius</a> | 
+        <a href="https://github.com/hamidahoderinwale" target="_blank">GitHub</a> | 
+        <a href="https://twitter.com/didaoh" target="_blank">Twitter</a>
+    </nav>
+    
+    {{ content }}
+</body>
+</html>

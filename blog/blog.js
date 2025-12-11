@@ -41,7 +41,7 @@ function updateRSSFeed($newPost) {
 // Usage example
 $newPost = [
     'title' => 'Your New Blog Post Title',
-    'link' => 'https://hamidah.me/blog/new-post.html',
+    'link' => '/blog/new-post.html',
     'date' => 'Sat, 22 Feb 2025',
     'description' => 'A brief description of your new blog post.'
 ];
