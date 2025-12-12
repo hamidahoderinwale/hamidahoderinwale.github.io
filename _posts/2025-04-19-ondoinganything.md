@@ -28,3 +28,4 @@ Recent times have made me feel out of breath. And when you're catching your brea
 
 In responsibility, happenings, a world that feels out of control, it's nice to feel like you have your breath and your pace. In reckoning my values, I think I'm more confident that something I care about is my space, my choice, and my ability to assert and do what I care about. I think I've let this get away from me. This blog is a reminder to get it back.
 
+

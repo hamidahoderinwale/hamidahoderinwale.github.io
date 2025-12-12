@@ -60,3 +60,4 @@ So the commune was more in reference for turning an eye to bureaucracy and fake 
 
 Overall, it was an interesting read. I enjoyed the writing style. It gave a little more insight into what a French anarchist sounds like and what a world with said beliefs could be.
 
+

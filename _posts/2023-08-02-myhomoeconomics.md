@@ -78,3 +78,4 @@ This is not focusing on learned helplessness per say, but wavers at this general
 - How can lotteries best supplement Deferred Acceptance Algorithms for admission processes (of all kinds?)
 - Does a georgist society hinder innovation, by virtue of geographic stagnation preventing idea-sharing, innovation hubs, etc.
 
+

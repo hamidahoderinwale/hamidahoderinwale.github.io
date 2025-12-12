@@ -80,3 +80,4 @@ Other people's thoughts that I find interesting on the topic:
 - Snippet from Tyler Cowen's feature on Dwarkesh Patel's podcast: https://marginalrevolution.com/marginalrevolution/2022/09/my-podcast-with-dwarkesh-patel.html
 - Twitter thread from @DavidSKreuger: https://twitter.com/davidskrueger/status/1574701979279818752?s=46&t=NIuYroEtyukzRCQ-PJN3Ew
 
+

@@ -28,3 +28,4 @@ I think more about this idea about ibbing and flowing through different ways of 
 
 You didn't choose to be this complex, but maybe you did. In striving for authenticity, perhaps that looks like clinging on this one form of self, because variance is disingenuous. Working hard to come up with a palatable form for all the environments, so you can remain constant.
 
+

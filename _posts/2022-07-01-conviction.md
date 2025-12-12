@@ -10,3 +10,4 @@ I generally have high openness which manifests as often re-assessing my beliefs 
 
 Why is having little conviction bad? I will and do have to participate in institutions and systems that are rigid, sometimes to their own detriment. In order to make progress, you need to have conviction because you're changing systems that already exist. Blazing new paths don't really exist, but not following the majority tends to be easier, but are the outcomes worse? Looking at the revolutions of science and the civil rights movement – they both required immense conviction but didn't completely invent the agenda in terms of institutional design for example.
 
+

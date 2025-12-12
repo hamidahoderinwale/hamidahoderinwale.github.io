@@ -34,3 +34,4 @@ While he does condemn computational theorists to some degree — those who make 
 
 > "The ideal scientist thinks like a poet and works like a bookkeeper."
 
+

@@ -24,3 +24,4 @@ First, looking at my experience – I can't tell why I became so entrenched. The
 
 This was very much a stream of consciousness written late at night and it shows, but I really like this post on the functions of philosophy from [Gavin Leech](https://www.gleech.org/no-philosopher)
 
+

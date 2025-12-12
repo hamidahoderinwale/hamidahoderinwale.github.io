@@ -22,3 +22,4 @@ But the problem is, and I think it's a problem, that I don't just sit in the rea
 
 But this was just another entry of questions to be answered and problems to solve. So we'll have to see what I come up with, and more importantly what I do about it.
 
+
