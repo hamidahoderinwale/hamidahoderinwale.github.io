@@ -1,0 +1,24 @@
+---
+layout: default
+---
+<link rel="stylesheet" type="text/css" href="{{ '/blog/blog.css' | relative_url }}">
+
+<article>
+    <h2>{{ page.title }}</h2>
+    {% if page.date %}
+    <p><i>{{ page.date | date: "%B %d, %Y" }}</i></p>
+    {% endif %}
+    
+    {% if page.draft %}
+    <p><em>Unfinished note</em></p>
+    {% endif %}
+    
+    {% if page.subtitle %}
+    <p><i>{{ page.subtitle }}</i></p>
+    {% endif %}
+    
+    <hr>
+    
+    {{ content }}
+</article>
+

@@ -1,0 +1,30 @@
+---
+title: "On Doing Anything"
+date: 2025-04-19
+layout: post
+---
+
+I'm writing this post to ground myself in what I care about. The last few months have been interesting. A familiar feeling that's come to the fore has been a quiet anxiousness that blooms when one is anticipating.
+
+I'm in a bubble, or so I'm told. Like all bubbles, it's transparent, bounded, and waiting to pop. The farther you are from the edges, the more inconspicuous this bubble is. She's undetectable. When it pops, the outside air mixes with the air on the inside: recycled, maybe stale, but familiar.
+
+From speaking with them and making my assumptions, many chose to either make money, work on problems they felt were imminent, or left because their time in college was lacking or of diminishing return. All of these reasons feel pertinent to me, but I left for some combination of medical reasons and after my summer internship, genuinely not being in the headspace to be in school. For those who ask why I didn't apply for a transfer, this is pretty much why.
+
+My gap year was supposed to be a time for me to see how fast I could go, to build my confidence, to try something new, to test out real life. I wrapped up my summer internship, and I couldn't fathom going back. One random August weekend in Vancouver, I confirmed my choice and decided that in the fall I wouldn't be returning for the year. I reached out to labs and tried to find one that would take me in.
+
+With the spaciousness that being out of school offers, I tried to explore and figure out who I was. I forgot that being out of school isn't a designation and that people work and exist as adults in many different ways. I'm writing this because I think I've gotten consumed by expectation.
+
+I value exploration, and this chapter was about figuring out my purpose and how to orient myself to my life. I believe that much of the intrinsic goodness of the world comes from everyone's ability to make anything out of it. I think worldly forces that infringe on this ability are culpable.
+
+I'll never get back my twenties, and I'm turning 20 next month.
+
+Per Patrick Collison's advice, which I remember reading when I was 17, I'm a little weird relative to my peers, as I should be.
+
+I did try to go deep into different things. Most notably, I learned how to become comfortable with the terminal and the code editor. I also learned how to get cozy with writing, express my thoughts, and, outside of this blog, have these words be pointed and assertions of my ideas. I find it interesting that my disposition is to review and to summarize. The goal of the works that you hope to be read is their ability to offer something new. Your sense-making isn't something you should subject your reader to by default.
+
+Domain-wise, I found a niche of policy and governance that I could speak on, albeit as a novice. I grew fond of "infrastructure"—libraries and databases. Economics is a subject I thought I would be good at, but I now spend little time with it. However, I can work around a wiki to learn more about it. I can reference the basic things, and maybe I have some intuition.
+
+Recent times have made me feel out of breath. And when you're catching your breath, it's interesting how your body doesn't do the most efficient things. Your lungs sharply fill with air, the intervals between each inhalation gets shorter and shorter, your chest gets tighter, and your mind gets overwhelmed with the thought that you'll never get enough air. You're jailed in a loop of short breaths, and you forget to breathe. I feel like I've forgotten to breathe, but I'm trying to remember to do it again.
+
+In responsibility, happenings, a world that feels out of control, it's nice to feel like you have your breath and your pace. In reckoning my values, I think I'm more confident that something I care about is my space, my choice, and my ability to assert and do what I care about. I think I've let this get away from me. This blog is a reminder to get it back.
+

@@ -1,0 +1,41 @@
+# Site settings
+title: "Hamidah Oderinwale"
+description: "A collection of ramblings that I edit to varying degrees on an ongoing basis."
+url: "https://hamidah.me"
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Exclude files from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .git
+  - .DS_Store
+  - README.md
+  - MIGRATION_PLAN.md
+  - MIGRATION_GUIDE.md
+  - showdown-editor
+
+# Permalinks
+permalink: /blog/:title/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      permalink: /blog/:title/
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
