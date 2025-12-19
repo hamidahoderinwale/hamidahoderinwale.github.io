@@ -18,3 +18,4 @@ But like many things there's nuance, I hope to explore. I covered this very brie
 School was the first institution I had to learn to navigate. Although, I don't remember much of kindergarten. Much of elementary school was regimented skill-building, and unironically the most crucial to my development. Like truly, you mess up pedagogy between the ages of 4-12 and you've very well messed up a young person's prospects of productively engaging with society. Obviously, building the fundamentals of the ability to contribute to society can be taught outside of the school environment. For many, many students the alternatives just aren't as good.
 
 
+

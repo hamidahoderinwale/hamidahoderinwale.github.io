@@ -79,3 +79,4 @@ This is not focusing on learned helplessness per say, but wavers at this general
 - Does a georgist society hinder innovation, by virtue of geographic stagnation preventing idea-sharing, innovation hubs, etc.
 
 
+

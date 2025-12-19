@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="https://hamidah.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hamidah.me/" rel="alternate" type="text/html" /><updated>2025-12-12T05:46:39-05:00</updated><id>https://hamidah.me/feed.xml</id><title type="html">Hamidah Oderinwale</title><subtitle>A collection of ramblings that I edit to varying degrees on an ongoing basis.</subtitle><entry><title type="html">On Doing Research</title><link href="https://hamidah.me/blog/ondoingresearch/" rel="alternate" type="text/html" title="On Doing Research" /><published>2025-05-31T00:00:00-04:00</published><updated>2025-05-31T00:00:00-04:00</updated><id>https://hamidah.me/blog/ondoingresearch</id><content type="html" xml:base="https://hamidah.me/blog/ondoingresearch/"><![CDATA[<p>We’re in an age where making datasets is much easier. The tools are better, the data is more accessible, and the barriers to entry have never been lower. But easier access to data doesn’t automatically translate to meaningful research—it just changes the game.</p>
+
+<h2 id="impact-statements-and-research-taste">Impact Statements and Research Taste</h2>
+
+<p>Making a research agenda is very good, but one thing I’m trying to get better at is <span class="highlight">formulating impact statements</span>. Given your novel contribution, what do you expect to change? I think it’s possible to come up with empirical results and publish them without clarifying this to yourself, but it’s much more fruitful if you can clearly specify what it is that you care about.</p>
+
+<p>It’s a good practice in asserting your judgments. Then, depending on what happens in the world, you can get feedback on your intuitions and overall grow as someone who is trying to build their research taste. This feedback loop is essential—it’s how you develop the ability to distinguish between work that matters and work that simply fills pages.</p>
+
+<h2 id="finding-your-research-identity">Finding Your Research Identity</h2>
+
+<p>I guess with my affinity for writing literature reviews, I’m able to say I enjoy the empirical analyses type of work. Knowing which area of work you’re interested in producing lays some basis for the type of insight you should expect to produce. Of course, don’t let this stymie the contributions you could make.</p>
+
+<p>Along these axes, there’s then a number of contributions I could make for a given work:</p>
+
+<ul>
+  <li>I could try and come up with a novel dataset (structure unstructured data from neglected sources)</li>
+  <li>I could draw some connection between parameters that people hadn’t considered (backing this up of course)</li>
+  <li>I could also validate (or disprove) theoretical conclusions with real-world evidence (e.g. Epoch’s work on the Chinchilla paper)</li>
+</ul>
+
+<h2 id="the-ra-trap-and-escape-route">The RA Trap and Escape Route</h2>
+
+<p>I do think being an RA is valuable, especially if you’re interested in the broader appeal of research. It’s also a good environment for getting a sense of the literature, especially since most of your tasks will involve reading and synthesizing it. I think it’s a decent opportunity to see what it looks like to come up with ideas and so on.</p>
+
+<p>But it can definitely be a trap.</p>
+
+<p>Here, I think there was an internal readjustment to orienting myself around thinking I could come up with new, important ideas. Then, it was important to test and transmit these ideas. Once you’ve developed some notion of subject-level interest, start reading the papers in a different manner: pay attention to their future work and directions that authors outline, come up with hypotheses (grapple with questions at a gears-level, that is, assert claims and intuit in what ways they may be true). Next, write these down.</p>
+
+<p>Once you’re here, now it’s a great time to find mentorship. I think I’m at the point where having someone to help refine projects and plans, advise on writing papers is really nice and very valuable. Since you’ve done a lot of the heavy-lifting, the people you reach out to go from advice-givers to potential collaborators and advisors.</p>
+
+<p>This is an environment where I think you can grow a lot and build fruitful mentorship. Don’t be afraid to sandbox ideas and perhaps my biggest regret is not speaking ideas into existence sooner. I think the biggest gap is going from the ideas in your mind to a workable project, and this is where a forgiving mentor who gives you direction while you explore helps a ton.</p>
+
+<h2 id="the-value-of-tedium-in-an-automated-world">The Value of Tedium in an Automated World</h2>
+
+<p>What is the value of tedium? What will change if we automate a considerable amount of mathematics and other fields? For example: what is the value of doing your own literature reviews, sketching your own proofs, and so on?</p>
+
+<p>These tools can uniquely formalize a proof written on pen-and-paper, but we could head into a world where these sketches are generated by LLMs and then compiled into Lean or another formal, machine-readable representation. This makes me think of the 3-D representations with John Baez and something like could you formalize a 3-D, physical, functional, simulated representation of the world through your real-world model.</p>
+
+<p>It’s more a vessel for people in other fields who already use math as a way of formalizing their domain-specific models and having an extension of that. For example, the economist wouldn’t have to solve for the integral by hand.</p>
+
+<div class="quote">
+    But we lose some essence of science once we start brute-forcing and if we completely abstract away human input.
+</div>
+
+<p>The tedium isn’t just busywork—it’s where intuition develops, where you build the tacit knowledge that lets you spot patterns and anomalies that automated systems might miss. The question isn’t whether we can automate these processes, but whether we should, and what we lose in translation when we do.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[We’re in an age where making datasets is much easier. The tools are better, the data is more accessible, and the barriers to entry have never been lower. But easier access to data doesn’t automatically translate to meaningful research—it just changes the game.]]></summary></entry><entry><title type="html">Representation as Stack</title><link href="https://hamidah.me/blog/representationasstack/" rel="alternate" type="text/html" title="Representation as Stack" /><published>2025-04-30T00:00:00-04:00</published><updated>2025-04-30T00:00:00-04:00</updated><id>https://hamidah.me/blog/representationasstack</id><content type="html" xml:base="https://hamidah.me/blog/representationasstack/"><![CDATA[<p>Here, I’m presenting an instance of vibes-research. The process is basically me asking an LLM questions the way you would in any chat, but I’d like to think that the distinguishing feature of “vibes-research” — compared to a normal Q&amp;A — is that there’s some train of thought behind it.</p>
+
+<p>The conversation started with me wondering what happens when underlying architectures, tools, and paradigms change — what happens to researchers and fields that depend on them? My motivation was to understand: are incumbent fields rendered useless by new approaches?</p>
+
+<p><a href="https://en.wikipedia.org/wiki/Sepp_Hochreiter">Sepp Hochreiter</a> and <a href="https://en.wikipedia.org/wiki/J%C3%BCrgen_Schmidhuber">Jürgen Schmidhuber</a> came up with the <a href="https://www.bioinf.jku.at/publications/older/2604.pdf">LSTM</a> (Long Short-Term Memory) in 1997. Going through Schmidhuber’s site and Google Scholar, it looks like he still publishes a very fair amount. His work now covers newer work like <a href="https://arxiv.org/abs/2405.17283">autoencoders</a>, empirical research with “productified” models like GPT-4o, and architectures like Transformers.</p>
+
+<p>ChatGPT responded correctly, saying that those with broad, conceptual knowledge often adapt. They understand new methods and continue to make advancements. Furthermore, it’s safe to say that LSTMs were an inspiration for their successors.</p>
+
+<p>Anyway, I don’t think LSTMs were the best test-bed for my initial question. You know what really changed the game? Vectors — or rather, tensors. In some sense, we got a new vector when the tensor came around. Tensors have been around since 1898, but for machine learning, they really solidified themselves as the core representation in the early 2000s — which isn’t that long ago.</p>
+
+<p>In 2009, Sutskever proposed <a href="https://papers.nips.cc/paper_files/paper/2009/hash/5705e1164a8394aace6018e27d20d237-Abstract.html">Bayesian Clustered Tensor Factorization</a> to model relational concepts while reducing the parameter space, and it was CNNs that really adopted tensors as the core representation for data in neural networks. Thus, future architectures took the tensor as their default representation.</p>
+
+<p>That said, the uprooting of old paradigms for new ones might be especially interesting to study at the level of representation — specifically, how human-readable data is encoded. ChatGPT helped me intuit the current stack of representation, which, in today’s paradigm, can be summarized fairly clearly. (The ubiquity of Python is another interesting piece to look at.)</p>
+
+<p>Even static typing isn’t really used in ML. I’ve heard of ‘RustTorch’ (or HuggingFace’s <a href="https://github.com/huggingface/candle">Candle</a>) and HaskTorch projects, but I imagine the language will follow the representation — and typing alone won’t be enough to trigger a switch. Furthermore, if you’re quantizing, then you want dynamism and variance. In that case, the goal is more type tracking (for precision, etc.) rather than traditional type-checking.</p>
+
+<p>That said, ChatGPT then raised an interesting case where you have an “extended type system might look like in future ML — for example, a type that tracks not just “float32” but also “quantized from float32 with ±3% error”?”</p>
+
+<blockquote>
+  <p><strong>How would <em>new representations</em> (beyond tensors) change the <em>stack</em> — and what does that mean for <em>how people program</em>?</strong></p>
+</blockquote>
+
+<h3 id="how-programming-will-change">How programming will change</h3>
+
+<blockquote>
+  <p><strong>Today:</strong></p>
+  <ul>
+    <li>Programming ML = declaring tensor operations.</li>
+    <li>You think in terms of <strong>arrays</strong> and <strong>functions</strong> on arrays.</li>
+  </ul>
+
+  <p><strong>Future (with new representations):</strong></p>
+  <ul>
+    <li>Programming ML = declaring <strong>local behaviors</strong>, <strong>graph rewrites</strong>, <strong>procedures attached to data</strong>.</li>
+    <li>You think in terms of <strong>local programs</strong>, <strong>flows</strong>, <strong>patches</strong>, and <strong>dynamical systems</strong> — not just tensors.</li>
+  </ul>
+
+  <p><strong>Programmers might have to:</strong></p>
+  <ul>
+    <li>Specify <strong>local transformations</strong> rather than just matrix ops.</li>
+    <li>Deal with <strong>irregular structures</strong> much more naturally.</li>
+    <li>Rely on <strong>higher-level declarative specifications</strong> (“this space should be smooth”, “this patch interacts with that one”) and let compilers figure out efficient execution.</li>
+  </ul>
+</blockquote>
+
+<p>Initially, it suggested that given the current stack, at the language-layer we would just see Python with specs for new representations.</p>
+
+<p>I then asked how programming languages might change.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Path</th>
+      <th>What Changes</th>
+      <th>Example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Python Evolution</strong></td>
+      <td>Python is <em>augmented</em> with new types and compilers that reinterpret your code.</td>
+      <td>Like <strong>Triton</strong> and <strong>Mojo</strong>: still Python-looking, but compiles to efficient IR and machine code.</td>
+    </tr>
+    <tr>
+      <td><strong>New DSLs</strong> (Domain-Specific Languages)</td>
+      <td>Specialized new languages designed for structure-first ML.</td>
+      <td>Like <strong>DiffTaichi</strong> for physics simulation; you describe computations differently.</td>
+    </tr>
+    <tr>
+      <td><strong>Fully New Languages</strong></td>
+      <td>Radical new designs for “composable dynamic systems” — replacing tensor-first thinking entirely.</td>
+      <td>No real-world examples yet at scale, but <strong>Metaprogramming Graph DSLs</strong> and <strong>functorial ML</strong> research points here.</td>
+    </tr>
+  </tbody>
+</table>
+
+<blockquote>
+  <p>The <em>language</em> might still look like Python for a while, but <strong>the mental model you need to have changes massively</strong>.</p>
+</blockquote>
+
+<h3 id="takeaways">Takeaways:</h3>
+
+<p>I think this would serve as a decent basis to actually begin the research. I could imagine asking ChatGPT to conceptualize a new representation stack for the future, but given this, it would probably be too broad in scope. Your new representation stack should be grounded in some real-world motivation — for example, observing the needs of a robotics planner. Then, you would need to find a way to measure efficacy, and so on. ChatGPT could probably assist well with these steps too.</p>
+
+<p>However, the <em>last mile</em> — intuiting how something would actually be used in the real world and polishing it into a usable product — is what I find takes the most time in any project. That said, I’m fairly sure that coming up with something like the above using only a search engine, or by going through textbooks and papers the traditional way, would have taken much longer.</p>
+
+<p>Deciding that this was a path worth pursuing could be attributed to some form of “expertise.” Economists studying LLMs and research claim that this is why we haven’t yet “recursed into intellectual Narnia”: fitting concepts together remains the hard — and interesting — part. Still, it was nice to quickly get broad sweeps of existing fields without having to do tedious library work.</p>
+
+<p>Like Schmidhuber, I think a major benefit of LLMs is how they can make research more enjoyable, helping eliminate a good fraction of the annoying parts. On the flip side, it seems plausible that more junior researchers like myself don’t always “pay our dues” — we do fewer reps, we get lazy. We gloss over the finer-grained patterns of the world and of our fields, ask “worse” questions, and form “worse” hypotheses. We risk operating at a level of abstraction too high to make truly meaningful theoretical progress.</p>
+
+<p>That said, I’m not sure Vaswani et al. needed to know how to write a device driver from scratch to develop their work. But if they did, I’m curious what kind of tacit learning influenced their work.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[Here, I’m presenting an instance of vibes-research. The process is basically me asking an LLM questions the way you would in any chat, but I’d like to think that the distinguishing feature of “vibes-research” — compared to a normal Q&amp;A — is that there’s some train of thought behind it.]]></summary></entry><entry><title type="html">On Doing Anything</title><link href="https://hamidah.me/blog/ondoinganything/" rel="alternate" type="text/html" title="On Doing Anything" /><published>2025-04-19T00:00:00-04:00</published><updated>2025-04-19T00:00:00-04:00</updated><id>https://hamidah.me/blog/ondoinganything</id><content type="html" xml:base="https://hamidah.me/blog/ondoinganything/"><![CDATA[<p>I’m writing this post to ground myself in what I care about. The last few months have been interesting. A familiar feeling that’s come to the fore has been a quiet anxiousness that blooms when one is anticipating.</p>
+
+<p>I’m in a bubble, or so I’m told. Like all bubbles, it’s transparent, bounded, and waiting to pop. The farther you are from the edges, the more inconspicuous this bubble is. She’s undetectable. When it pops, the outside air mixes with the air on the inside: recycled, maybe stale, but familiar.</p>
+
+<p>From speaking with them and making my assumptions, many chose to either make money, work on problems they felt were imminent, or left because their time in college was lacking or of diminishing return. All of these reasons feel pertinent to me, but I left for some combination of medical reasons and after my summer internship, genuinely not being in the headspace to be in school. For those who ask why I didn’t apply for a transfer, this is pretty much why.</p>
+
+<p>My gap year was supposed to be a time for me to see how fast I could go, to build my confidence, to try something new, to test out real life. I wrapped up my summer internship, and I couldn’t fathom going back. One random August weekend in Vancouver, I confirmed my choice and decided that in the fall I wouldn’t be returning for the year. I reached out to labs and tried to find one that would take me in.</p>
+
+<p>With the spaciousness that being out of school offers, I tried to explore and figure out who I was. I forgot that being out of school isn’t a designation and that people work and exist as adults in many different ways. I’m writing this because I think I’ve gotten consumed by expectation.</p>
+
+<p>I value exploration, and this chapter was about figuring out my purpose and how to orient myself to my life. I believe that much of the intrinsic goodness of the world comes from everyone’s ability to make anything out of it. I think worldly forces that infringe on this ability are culpable.</p>
+
+<p>I’ll never get back my twenties, and I’m turning 20 next month.</p>
+
+<p>Per Patrick Collison’s advice, which I remember reading when I was 17, I’m a little weird relative to my peers, as I should be.</p>
+
+<p>I did try to go deep into different things. Most notably, I learned how to become comfortable with the terminal and the code editor. I also learned how to get cozy with writing, express my thoughts, and, outside of this blog, have these words be pointed and assertions of my ideas. I find it interesting that my disposition is to review and to summarize. The goal of the works that you hope to be read is their ability to offer something new. Your sense-making isn’t something you should subject your reader to by default.</p>
+
+<p>Domain-wise, I found a niche of policy and governance that I could speak on, albeit as a novice. I grew fond of “infrastructure”—libraries and databases. Economics is a subject I thought I would be good at, but I now spend little time with it. However, I can work around a wiki to learn more about it. I can reference the basic things, and maybe I have some intuition.</p>
+
+<p>Recent times have made me feel out of breath. And when you’re catching your breath, it’s interesting how your body doesn’t do the most efficient things. Your lungs sharply fill with air, the intervals between each inhalation gets shorter and shorter, your chest gets tighter, and your mind gets overwhelmed with the thought that you’ll never get enough air. You’re jailed in a loop of short breaths, and you forget to breathe. I feel like I’ve forgotten to breathe, but I’m trying to remember to do it again.</p>
+
+<p>In responsibility, happenings, a world that feels out of control, it’s nice to feel like you have your breath and your pace. In reckoning my values, I think I’m more confident that something I care about is my space, my choice, and my ability to assert and do what I care about. I think I’ve let this get away from me. This blog is a reminder to get it back.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[I’m writing this post to ground myself in what I care about. The last few months have been interesting. A familiar feeling that’s come to the fore has been a quiet anxiousness that blooms when one is anticipating.]]></summary></entry><entry><title type="html">On Doing Anything (Why Free Will is a Value)</title><link href="https://hamidah.me/blog/free/" rel="alternate" type="text/html" title="On Doing Anything (Why Free Will is a Value)" /><published>2025-04-19T00:00:00-04:00</published><updated>2025-04-19T00:00:00-04:00</updated><id>https://hamidah.me/blog/free</id><content type="html" xml:base="https://hamidah.me/blog/free/"><![CDATA[<p>I’m writing this post to ground myself in what I care about. The last few months have been interesting. A familiar feeling that’s come to the fore has been a quiet anxiousness that blooms in anticipation. I’m aware I’m in a bubble. Many of my friends—who I wasn’t particularly close to until this winter—have left their respective schools and taken gap terms. I suspect that many of them won’t return.</p>
+
+<p>From conversations and assumptions, I gather they left either to make money, work on problems they felt were urgent, or because college felt unfulfilling or diminishing in return. All of these reasons resonate with me. Frankly, I left for a combination of medical reasons and, after my summer internship, not being in the right headspace to be in school. For those who ask why I didn’t apply for a transfer—this is why.</p>
+
+<p>Over the past year, I’ve been fortunate to participate in opportunities that have helped me grow and feel cared for. With the spaciousness that being out of school provides, I tried to explore who I was. I forgot that being out of school isn’t a designation—people live and work in many ways as adults. I’m writing this because I think I’ve become consumed by expectations.</p>
+
+<p>I value exploration, and this chapter has been about figuring out my purpose and how to orient myself to life. I believe that much of the intrinsic goodness in the world comes from our ability to make something of it. When external forces infringe on that ability, I think they’re culpable.</p>
+
+<p>I’ll never get my twenties back—and I’m turning 20 next month.</p>
+
+<p><a href="https://patrickcollison.com/advice">Patrick Collison</a> once wrote something I read at 17: that you shouldn’t judge your success relative to your peers. I think that still rings true. I’m a little weird relative to them, and that’s okay.</p>
+
+<p>I’ve tried to go deep into different things. Most notably, I learned how to get comfortable with the terminal and the code editor. I also learned to enjoy writing—to express my thoughts—and, outside of this blog, to make those words more pointed and rooted in provoking ideas.</p>
+
+<p>Domain-wise, I found a niche in policy and governance that I could speak to, albeit as a novice. I’ve grown fond of infrastructure—libraries and databases. Economics is a subject I thought I’d be good at, but I now spend little time with it. Still, I can navigate a wiki and reference the basics. Maybe I have some intuition.</p>
+
+<p>Lately, I’ve felt out of breath. And when you’re catching your breath, it’s interesting how your body doesn’t do the most efficient things. Your lungs fill sharply in short intervals, your chest tightens, and your mind spirals into thinking you’ll never get enough air. You’re jailed in a loop of shallow breaths, and you forget to breathe. I feel like I’ve forgotten to breathe, but I’m trying to remember.</p>
+
+<p>In responsibility, in events, in a world that feels out of control—it’s nice to feel like you have your breath and your pace. In reckoning with my values, I’ve become more confident that I care about space, choice, and the ability to act on what matters to me. I think I let that slip. This blog is a reminder to get it back.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[I’m writing this post to ground myself in what I care about. The last few months have been interesting. A familiar feeling that’s come to the fore has been a quiet anxiousness that blooms in anticipation. I’m aware I’m in a bubble. Many of my friends—who I wasn’t particularly close to until this winter—have left their respective schools and taken gap terms. I suspect that many of them won’t return.]]></summary></entry><entry><title type="html">A Month in Questions</title><link href="https://hamidah.me/blog/amonthinquestions/" rel="alternate" type="text/html" title="A Month in Questions" /><published>2025-03-30T00:00:00-04:00</published><updated>2025-03-30T00:00:00-04:00</updated><id>https://hamidah.me/blog/amonthinquestions</id><content type="html" xml:base="https://hamidah.me/blog/amonthinquestions/"><![CDATA[<p>I’ve been using Remnote consistently for the past couple of months and I like it a lot. One of my favourite features is the “daily note.” Everyday, I get a new section dedicated to the day and it will normally be populated with new words that I’d learned, links and resources that I’d come across, and a to-do list. I will also put questions that come up as I went through my day and perhaps a summary of the main events. I think a good number of these bullet points could be expanded into a full blog post; instead, however, I’m going to feed the notes from the past month into ChatGPT and get a list of questions inspired by them. I hope this can be an artifact of my curiosities.</p>
+
+<p>Note: I didn’t edit these questions after they were generated. Upon reading these questions, I find a lot of them pretty fluffy, but alas it took a minute max.</p>
+
+<h2 id="ai-models-and-representations">AI, Models, and Representations</h2>
+
+<ul>
+  <li>What does it mean to “version” not just code, but the thought process that went into it?</li>
+  <li>Could Datalog help us understand how LLMs encode and organize knowledge?</li>
+  <li>How can we represent spatial and temporal knowledge in model embeddings more transparently?</li>
+  <li>What is the role of diagrammatic reasoning in mechanistic interpretability?</li>
+  <li>What would a declarative interface for inspecting model representations look like?</li>
+</ul>
+
+<h2 id="research-practice-and-knowledge-production">Research Practice and Knowledge Production</h2>
+
+<ul>
+  <li>Why are survey papers so undervalued despite their high utility?</li>
+  <li>What would a better “testbed” look like for theoretical ideas?</li>
+  <li>How do you measure the value of research beyond citations—perhaps by its inspirational power?</li>
+  <li>Could research change more if dissemination models changed? (e.g., new patronage, collaborative distillation)</li>
+  <li>What models of citation make sense in the era of training data aggregators and generative AI?</li>
+</ul>
+
+<h2 id="systems-semantics-and-programming">Systems, Semantics, and Programming</h2>
+
+<ul>
+  <li>How do gradual static types balance expressiveness and safety?</li>
+  <li>What could a type system for CRDT-based declarative visual languages enable?</li>
+  <li>What would an IDE for building “agentic datasets” look like?</li>
+  <li>How can we define the “schema” of a model’s outputs for debugging and downstream tasks?</li>
+  <li>Can a visual diff system make GitHub more understandable for non-programmers?</li>
+</ul>
+
+<h2 id="institutions-infrastructure-and-openness">Institutions, Infrastructure, and Openness</h2>
+
+<ul>
+  <li>Why wasn’t Dwarkesh’s book written using the tooling he often advocates for?</li>
+  <li>What institutional infrastructure supports sustained, high-quality distillation (like Distill.pub)?</li>
+  <li>Could LLM companies fund data libraries and citation repositories like Wikipedia?</li>
+  <li>What would it look like if open-source thinking extended beyond code—into research workflows, testbeds, and policy ideas?</li>
+  <li>Could libraries be reimagined as interfaces for analogical thinking and cross-domain discovery?</li>
+</ul>
+
+<h2 id="economics-and-social-thought">Economics and Social Thought</h2>
+
+<ul>
+  <li>Are markets efficient if they aren’t time-aware? What’s the temporal resolution of an efficient market?</li>
+  <li>Is taste a kind of arbitrage?</li>
+  <li>What are the limits of the behavioral economics approach to systemic problems?</li>
+  <li>Why do people donate to research non-profits? What motivates sustained funding without a clear ROI?</li>
+  <li>How do information economics principles apply to generative environments?</li>
+</ul>
+
+<h2 id="workflow-expression-and-pedagogy">Workflow, Expression, and Pedagogy</h2>
+
+<ul>
+  <li>What does a “working-in-public” research workflow look like in practice?</li>
+  <li>How do you write for translators—people who span fields and need to “carry” your work?</li>
+  <li>What does teaching look like when it’s reframed as an act of explaining <em>why</em> something matters?</li>
+  <li>How do we track and version procedural knowledge over time?</li>
+  <li>Could tests be treated like APIs: contracts that define the interface of your reasoning?</li>
+</ul>]]></content><author><name></name></author><summary type="html"><![CDATA[I’ve been using Remnote consistently for the past couple of months and I like it a lot. One of my favourite features is the “daily note.” Everyday, I get a new section dedicated to the day and it will normally be populated with new words that I’d learned, links and resources that I’d come across, and a to-do list. I will also put questions that come up as I went through my day and perhaps a summary of the main events. I think a good number of these bullet points could be expanded into a full blog post; instead, however, I’m going to feed the notes from the past month into ChatGPT and get a list of questions inspired by them. I hope this can be an artifact of my curiosities.]]></summary></entry><entry><title type="html">Trying to Understand (Double) Categorical Systems Theory</title><link href="https://hamidah.me/blog/dcst/" rel="alternate" type="text/html" title="Trying to Understand (Double) Categorical Systems Theory" /><published>2025-03-25T00:00:00-04:00</published><updated>2025-03-25T00:00:00-04:00</updated><id>https://hamidah.me/blog/dcst</id><content type="html" xml:base="https://hamidah.me/blog/dcst/"><![CDATA[<p>Today, I was the test subject of an exercise to clearly explain categorical systems theory and double categorical systems theory. I was presented with a single clause and could “double click” any phrase, that is, ask a question regarding any phrase to try and understand what was going on.</p>
+
+<p>It was super useful and I started of by asking definition-type questions and then later asking for clarity on the assumptions that I’d made as the activity went on. I think learning how to think, write, and talk clearly about your work is very important. In fact, it’s at the root of building knowledge and disseminating it—what any researcher aims to do.</p>
+
+<p><em>The following is the outcome of the activity: a summary of the concepts I’d learned.</em></p>
+
+<p>We make simulations to represent complex systems. Representing systems simulationally is useful because we can interact with them in a lower-dimensional way. Simply sharing an exact-copy replica doesn’t mean that you’re sharing the right things. Categorical systems theory is a way of simulating systems with grammar. This means that if I know the grammar I can 1)  rebuild the original state of the system (which is valuable to be able to do) from the lower-dim model, and 2) can understand any system that uses the grammar. Just like in natural language, you can combine thoughts into new ideas, you can do the same thing with models and thereby build new systems and worlds (which is great).</p>
+
+<p>CST is a theory with two variants: one is operadic, where you model a system by capturing the whole state and can show how the state is different by looking at the graphical differences in the different captures; the second is procedural, where you model a system by capturing the transformations of the objects within it. These two variants convey different information, and each would reconstruct the original state differently.</p>
+
+<p>DCST unifies the two variants into a harmonized grammar that can generalize to more simulations and helps us reconstruct original states with more confidence (as there’s a single grammar that we could add to a manual to then refer to).</p>]]></content><author><name></name></author><summary type="html"><![CDATA[Today, I was the test subject of an exercise to clearly explain categorical systems theory and double categorical systems theory. I was presented with a single clause and could “double click” any phrase, that is, ask a question regarding any phrase to try and understand what was going on.]]></summary></entry><entry><title type="html">Notes on Consilience</title><link href="https://hamidah.me/blog/consilience/" rel="alternate" type="text/html" title="Notes on Consilience" /><published>2025-02-17T00:00:00-05:00</published><updated>2025-02-17T00:00:00-05:00</updated><id>https://hamidah.me/blog/consilience</id><content type="html" xml:base="https://hamidah.me/blog/consilience/"><![CDATA[<p>Recently I ‘finished’ reading <em>Consilience: The Unity of Knowledge</em> by E.O. Wilson and here are my notes.</p>
+
+<p>A few months back when I set out to really get started, a friend asked what I was reading, and I told him this book. At first glance, he thought it was pretty fluffy. I agreed at the time. Now, I would disagree — pretty strongly so. Published in 1998, his accurate predictions give him authority, and that aside, his claims resonate and the research he includes is dense but grounding. For example, he acknowledges the power of protein structure prediction but suggests that it will be solved. Of course, today DeepMind’s AlphaFold is well-known and capable. But he also awaits predictive models for environmental science. He claims that it’s harder — cells and proteins are much more deterministic than entities and organisms. And indeed, we’ve yet to crack that puzzle.</p>
+
+<p>The meat of the book dives into his tranches of knowledge, including the natural sciences, the mind, genes and culture, the social sciences, ethics, and religion. He commends them for their progress since inception but ends each chapter questioning how they can be better.</p>
+
+<p>He spends much of his time explaining how disciplines can improve on the basis of how strong their models are. For the most part, these models are assessed on their accuracy and their generalizability. But you’re still left asking: so what? At the end, though, you gain clarity that models are the only means in which we can reason about the world. Models are consilience.</p>
+
+<p>He mentions how, with evolution, will come conservatism. The kind of conservatism that implies a narrow perspective and narrower trajectory. We’ll remedy our ailments with the new treatments we work to discover, we’ll fix our man-made problems with man-made technology. Perhaps it is that simple but he calls us to pay attention to the human ethic.</p>
+
+<p>A core focus of this book is explaining how subscribing to monoliths as a scientist is stifling. A question, though, that arises while reading this book, is why? Why venture into other fields when you have your own? Well, I believe Wilson is motivated by being able to understand specific complex systems (p. 93), and doing so simply requires being able to point to different fields.</p>
+
+<p>He touches on religion and ethics very beautifully and states that “Science faces in ethics and religion its most interesting and possibly humbling challenge. […] Religion will possess strength to the extent that it codifies and puts into enduring, poetic form the highest values of humanity consistent with empirical knowledge.”</p>
+
+<p>In the <em>Natural Sciences</em> chapter (p. 53), he writes that “the theory that unites […] basic phenomena is an interlocking set of graphical representations and equations.” Here, he refers to ‘quantum electrodynamics (Q.E.D.)’ to describe the wave-particle duality (Louis de Broglie (1924)).</p>
+
+<p>He also gives his takes on the nature of theory. He satisfyingly writes that complexity without reduction is art, and complexity with reduction is science (The <em>Natural Sciences</em>, p. 59). As I interpret this, dimensionality reduction — figuring out how to do it — is an act of rigor. Dimensionality reduction is seeking signal in the noise: it’s how we engineer understanding. And to engineer understanding is to do science.</p>
+
+<p>While he does condemn computational theorists to some degree — those who make themselves victims to combinatorial explosition by simulation — Wilson writes about the value of theory (p. 56). In fact, he claims that science is nothing without theory. To theorize is to narrate. And to build a theory either from scratch or to build someone else’s is a way of reconstructing the system — to tell the story again.</p>
+
+<h2 id="select-quotes">Select Quotes</h2>
+
+<blockquote>
+  <p>“Each advance is also a prosthesis, an artificial device dependent on advanced expertise and intense continuing management.”</p>
+</blockquote>
+
+<blockquote>
+  <p>“A united system of knowledge is the surest means of identifying the still unexplored domains of reality. It provides a clear map of what is known, and it frames the most productive questions for future inquiry.”</p>
+</blockquote>
+
+<blockquote>
+  <p>“Historians of science often observe that asking the right question is more important than producing the right answer. The right answer to a trivial question is also trivial, but the right question, even when insoluble in exact form, is a guide to major discovery. And so it will ever be in the future excursions of science and imaginative flights of the arts.”</p>
+</blockquote>
+
+<blockquote>
+  <p>“The ideal scientist thinks like a poet and works like a bookkeeper.”</p>
+</blockquote>]]></content><author><name></name></author><summary type="html"><![CDATA[Recently I ‘finished’ reading Consilience: The Unity of Knowledge by E.O. Wilson and here are my notes.]]></summary></entry><entry><title type="html">Another Year</title><link href="https://hamidah.me/blog/anotheryear/" rel="alternate" type="text/html" title="Another Year" /><published>2024-12-31T00:00:00-05:00</published><updated>2024-12-31T00:00:00-05:00</updated><id>https://hamidah.me/blog/anotheryear</id><content type="html" xml:base="https://hamidah.me/blog/anotheryear/"><![CDATA[<p>Baroque: I think of medieval Europe, with its tone of tan stone, where women with red-tinted lips traverse cobblestone streets reading their books. It’s cloudy and slightly cold as they put on their coats and go for walks. They think, they ponder, mumbling commentary about their surroundings, seasoning the air with the residual tobacco in their breath. That girl.</p>
+
+<p>Baroque art evokes emotion—it’s baroque because that’s its essence. Baroque people are emotional, imparting their feelings onto the lives that exist around them—lives imbued with emotion. Baroque film is the movie you imagine your life to be when drops of rain roll down the window as you try to drown out the sound of traffic by focusing on the cells trudging along under your skin.</p>
+
+<p>I was an internet kid, a chronically online kid. I was a weird kid, a slightly shy kid. Now, I’m an adult. I’ve spent an entire year as one. I’m still on the internet, still a little weird by at least some standards, and selectively shy—but I tried to help it. A woman now, I guess it’s time to be that girl, minus the traumatized lung-induced rasp. Another year is coming to an end and in the spirit of consistency, I return to this blog to write about that fact.</p>
+
+<p>Here, there’s no plan. I hope to be candid and care for my future self who will read this again. That said, the candor I owe doesn’t cost my openness. And so there likely will be little detail. I like the mystery. I’ll brand the uneasiness that comes with remembering that just like that you’ve spent yet another year around the sun, as mystery. So I guess I like it. I’ve got to.</p>
+
+<p>I think this has been a year of much growth. I’m really appreciative that a) it happened and b) is something I can recognize. Things were not perfect, but what a middling ideal that is. What did change, however, was that little early-teen Hamidah had stoicism as a label for suppressing feelings that were too overwhelming to contain. While now I feel distant from that past: it is what it is, all of it. The laissez-faire attitude is very freeing. Still, I’m indebted to the ticking time clock of my life. There’s always more to do, but it’s a blessing that I get to try.</p>
+
+<p>Some phrases come to mind as this year comes to an end. This was the year where I shilled the dollars and time to buy back my curiosity, she’d gone astray to excessive frugality. This was the year of looking around and appreciating all that I’d got: the relationships, friendships, memories, lessons and all. This was the year to realize that writing a narrative for one to follow is to write a play. And I don’t want my life to be an act. This was the year of whispering under my breath, “may we lead meaningful lives.” This was the year of letting go, starting off with the lows and letting the shed weight lift me up. This was the year of inching towards something that I can’t even articulate, but it glimmers with hope.</p>
+
+<p>I used to live in the shadows of what I felt like I had to become, and it was holding me back. It turns out that the more principled you try to be, despite the breadth of possibility that exists, the more fulfilled you’ll be, the more conviction you’ll have, the more you’ll care, you’ll love, and the more you’ll be.</p>
+
+<p>This year you’d grow: Part of this aforementioned growth will be ascribing this period of roughness to growing up. Must I repeat it again, that dignity is a virtue and you can only run so fast from the voices in your head—your stamina for this sort of thing pales—rather start walking; listen to the voices: Do NOT attempt to proceed and just hear them, don’t be dumb and ignore them, and do NOT listen to them and wallow in the sound.</p>
+
+<p>I’m pretty happy. I don’t think happier is the right word here, but depression—something that still is very strange to me, and especially strange to have voiced—sucks so much. When each day fades into the next, hours pass and your body hasn’t moved an inch, and tears stream down your face when you think of a ball rolling down an aimless road, maybe to be kicked, then you know it’s time to get help. You’ll think you know it all, and have planned what will come next. That you know what you have to do, and it’s just a matter of doing. That you just have to muscle through to the next week and the rest will sort itself out. Recognize that there are the wiser who are just one piece of advice away from making your life manyfold times more meaningful. This was the year of learning once again that the character in those past chapters feels like a stranger. You’ll learn it’s not etched in stone that you’ll never meet her again.</p>
+
+<p>Next, AA was a major force in a lot of the decisions I made in the latter half of the year. To her, I’m very grateful. She made it clear that the time to do everything I wanted to do was right now. I needed to hold myself accountable, I needed to really let go of proxies for satisfaction, success, and so on. Make yourself satisfied. Find the things that you want to work hard on. I tried to find those things. I’m continuing to find them. Easy-to-define purpose feels very much like a hoax. I always felt maybe ashamed that I didn’t have my thing, but I did have my quests. And I think that’s the model that works best for me.</p>
+
+<p>Last but not really, I used to feel weird about the time I spent alone. I wasn’t necessarily yearning to be with others all the time, but it did feel like I had to be. I realized that people and community are great, but independence and solace are the baseline, the default. You should be able to exist and not only cope with this fact. I spend a good amount of time by myself, by choice—I enjoy it, I treasure it—it’s a blessing and it’s something I hope that I’ll continue to feel whole by. What’s life if you can’t live with reality? I think it’s only possible to do this in solitude.</p>
+
+<p>As for the year to come, I hope to build better systems, and to lead the projects I now have better visions for. I plan to take SL’s advice that was given at just the right time. I’ll be an age that scares me quite a bit, but all I can do is sit with that feeling and see what it means. I hope to continue on this thread of life that is present, strive to make each day worth something and let those days never just serve as a means to the next. I plan to write. I hope to stay true to myself and grow into whoever <em>I</em> become, stay steadfast on the spiritual journey that’s been a forward path at last. I hope to see the next year, sit on more benches and look at nice views, see more quests through, and write another one of these in a year’s time.</p>
+
+<p>“Stay restless.”—E.O. Wilson, <em>Letters to a Young Scientist</em> (2013)</p>
+
+<p>To a great year ahead. See ya next time.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[Baroque: I think of medieval Europe, with its tone of tan stone, where women with red-tinted lips traverse cobblestone streets reading their books. It’s cloudy and slightly cold as they put on their coats and go for walks. They think, they ponder, mumbling commentary about their surroundings, seasoning the air with the residual tobacco in their breath. That girl.]]></summary></entry><entry><title type="html">Representations Are All You Need</title><link href="https://hamidah.me/blog/representationsareallyouneed/" rel="alternate" type="text/html" title="Representations Are All You Need" /><published>2024-12-27T00:00:00-05:00</published><updated>2024-12-27T00:00:00-05:00</updated><id>https://hamidah.me/blog/representationsareallyouneed</id><content type="html" xml:base="https://hamidah.me/blog/representationsareallyouneed/"><![CDATA[<p>At Topos, we’ve been working on a meta-modeling tool. It’s called CatColab and you can check it out <a href="https://next.catcolab.org/">here</a>. At first, I was just excited to join what seemed like a group of really intelligent people. In this regard, I was definitely not disappointed and have had an amazing time so far! However, having written TypeScript and Rust for this application for much of the past few months, I ought to be able to explain what it does and why it’s useful. For an excellent reference point, you can look at <a href="https://topos.institute/blog/2024-10-02-introducing-catcolab/">this blog post</a> authored by one of the engineers!</p>
+
+<p>As for my takes, have you ever had those experiences where you’re trying to recall something and you’re asking the person you’re having a conversation with to help? Perhaps you’re trying to explain what a specific meal is called. You want to try and make it again. You had it as a kid. You had when you’re eight. You forgot the name but you’d like to remember it so you can find a recipe. Perhaps you start by explaining what it tastes like: the olfactory system has enough variance that you don’t really have any luck. You switch to explaining the different ingredients, but everything was sufficiently cooked together that it doesn’t give much insight into the meal you’re trying to describe. From the little information they have, they start calling back to you with plausible meals that come to their mind. You know they’ve had it before, and you do this back-and-forth, going in cycles of “no, buts” and after 20 minutes, you’ve successfully been able to explain the meal that you remember having when you were eight, and you can carry on with the rest of your conversation. This is an example of “collaborative reasoning.” I presented a very ad hoc, rough-cut, and bespoke example, but hopefully it gives some gist of what I’m trying to get at. Of course, (when we do research) we collaboratively reason in many cases: when we engage in discourse about papers, when we’re trying to figure out the next steps, when we try and work on a research project, or tackle an issue together.</p>
+
+<p>Now, there’s something here, which is that (in this case) I speak in natural language, specifically English. English has some formality; we have some structure. But we have langauges that are even more formal than language that is spoken and written such as domain-specific notations (like UML for software design), formal grammars (like the Chomsky hierarchy, recursive enumerable (RE) grammars, and so on), logical notations (like predicate logic or propositional logic), mathematical notations (like set theory, calculus (debatably?), or category theory), and programming languages (ranging from Python and other general high-level languages and scripting languages like HTML and JavaScript to lower-level languages like C and Assembly as well as functional programming languages like Haskell and Lisp). There’s even more formal ones such as verification languages like Allow or TLA+ and then Assembly and Machine Code at the top of the hierarchy like x86 assembly languages and ARM’s A64 assembly language.</p>
+
+<p>That said, when I speak and you understand, it suggests that I adequately conform to the <a href="https://en.wikipedia.org/wiki/Formal_grammar">(formal) grammar</a> of the language. When I combine words in this language in ways that express ideas and you understand, it means I semantically make sense. Simply put, you get what I <em>mean</em>. I conform to the order of broader logic. Natural language is great, and it’s really expressive and low-effort. In fact, when me and you read the same book we very likely think of these very different words despite reading the same text.</p>
+
+<p>That said, however, my friend and I probably have a much easier time accomplishing the exercise above because of how well we know each other: over time we’ve gotten along and spoken, we’ve built context that goes unsaid but oils the gears in our minds as we try to recall this meal, this object, this thing. You know what my favorite meal is, you know my ethnicity, you know what I’m allergic to, you know what restaurants I’ve been to in the past few months, and more. If I were to do this same exercise with someone I’d just met, in the absence of this context, it would have been much harder. If I did this with someone who spoke a whole other language, then we’d probably not get very far <em>if we spoke</em>. However, perhaps if I switch to another medium that lets us rise above the linguistic barriers between us—I get out a paper and pencil and start drawing, or you watch as I prompt Sora with the little tidbits that come to mind—we get somewhere; perhaps we work even faster than when I do the back-and-forth with my friend.</p>
+
+<p>There are some cases and reasons why this is true. We have logs of our past thoughts and I can refer back to a single prompt and iterate upon it, dropping the thread when my adjustments aren’t getting me closer to the image in my mind. All the things that I can’t articulate as I go through the motions of recall are shown, and your mental model can grow in detail as I more “honestly” and declaratively express the contents of mine.</p>
+
+<p>This was a pretty long exposition to introduce graphical modeling that’s grounded in grammars: rules and logic. When we’re doing collaborative modeling, we have the ideas that we want to express and mutually understand. Therefore, we need some medium to work with: natural language, code, diagrams, and the like. And of course, we need our ideas, and by virtue of choosing to spend our time doing this, engaging with each other, collaborating and reasoning (together), we ought to have a goal.</p>
+
+<p>Now, this makes the case for a meta-modeling language. Of course, we could have code that we decode and then generate diagrams. Here, logic is imparted on us by keeping to the grammars of the code, our language; and the visualizations are then generated post-hoc, but there’s a gap between what is in my mind, writing down my ideas in (good) grammar (especially forced by the compiler), and then finally having the visualization. There are many cases in which you find that the outputs aren’t what you wanted: this is the basis of imperative programming, and it means there’s an added layer (of friction) in our reasoning where I’m trying to iterate on the (public) representations I’m trying to share. It would be nice if we could make this layer as thin as possible—transparent (how do we communicate the choice of representation and how it’s composed and how it was arrived at?). How do we make it as seamless as possible, maybe working directly to make our representations as we express our ideas in the first place: choose and in fact do the latter example, work in the second mode when we try to explain things to each other and work on things?</p>
+
+<p>This is interesting but very abstract. On one hand, mathematics and philosophy think exclusively in this domain. They are meta-domains; the objects are abstract and interoperable.  These objects can represent a wide range of concepts—such as arguments, operands, and entities—that interact, transform, and exist in multiple dimensions. In this sense, they function as models for understanding various phenomena, from human cognition to statistical features and even the structure of the universe. Nonetheless: Importantly, both mathematics and philosophy have critical mass. I think there’s something here in applying these meta-domains, building out these reasoning constructs. This is something that typing, defining logical patterns, and so on help us to do. Writing is a valuable task for people because you are forced to write in grammar; each sentence is an assertion of thought so you have to have them, and therefore building these models—that we can do in CatColab, but that we can also do when we write functions and we’re forced to ask ourselves what we want this macro to accomplish, even more so when we write in declarative languages.</p>
+
+<p>On that note: I’ve been (slowly) reading <em>Knowledge Representation: Logical, Philosophical, and Computational Foundations</em> by John F. Sowa, and it’s interesting. I’ve been thinking more about who the contemporary philosophers of our time are: less so the ethicists, but perhaps the logicians, those who come up with these structures of thought and reasoning and how they work. For example, I found this view of the lattice representations for concepts to be incredibly elegant.</p>
+
+<p><img src="https://www.jfsowa.com/figs/bigtop.gif" alt="Hierarchy of top-level categories represented by J.F. Sowa's lattice diagram." /></p>
+
+<p><em>Diagram from John F. Sowa’s <a href="https://www.jfsowa.com/ontology/toplevel.htm">post</a> on “Top-Level Categories.”</em></p>
+
+<p>Should we be trying to concretize the construction of bigger ideas that rest on these “new paradigms?” Indeed, I’ve increasingly seen that “learning” moments of awe, and maybe even moments of breakthrough have been the product of recognizing these analogies. I did a tutoring session for a high school student who was taking calculus, and what felt really satisfying for me to do, and was hopefully helpful for her, was recalling these concepts that she’d learned earlier in high school and middle school: for example, the transformations of polynomials and trying to make sense of things like the composition of functions or continuity.</p>
+
+<p>I remember taking the boilerplate formulas for the former very much for granted because they were introduced in isolation, but because it’s something she recalled and was confident in—work she’d seen time and time again—I hopefully could build intuition for her current work while contextualizing the work from the past. That was really great, and her second test ended up going well! On a side note, it was really fun and cool to tutor again, especially for calculus, and I really enjoy teaching: I have ways to improve, but I seek out opportunities to do it more. Lastly, I mention the “combinatorial model of invention” pretty often, but insofar as innovations are building new LEGO constructions with blocks that fit—brick-by-brick—then getting these new shapes or knowing that certain base combinations work to make these nice shapes is really valuable and helps you make more interesting things. That’s how I feel about this line of work. Perhaps there’s a philosophy (of math) arc that I’m yet to explore. Exciting stuff! I had the pleasure of speaking with <a href="https://www.juliashaas.com/">Julia Haas</a> when I was in high school, which gave me some insight into what philosophy at a large AI lab looks like: she focuses more on consciousness and, of course, ethics, but I’m curious to see if there are logicians and the like: there seems to be many cool areas of work.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[At Topos, we’ve been working on a meta-modeling tool. It’s called CatColab and you can check it out here. At first, I was just excited to join what seemed like a group of really intelligent people. In this regard, I was definitely not disappointed and have had an amazing time so far! However, having written TypeScript and Rust for this application for much of the past few months, I ought to be able to explain what it does and why it’s useful. For an excellent reference point, you can look at this blog post authored by one of the engineers!]]></summary></entry><entry><title type="html">Another One [1]</title><link href="https://hamidah.me/blog/anotherone1/" rel="alternate" type="text/html" title="Another One [1]" /><published>2024-10-31T00:00:00-04:00</published><updated>2024-10-31T00:00:00-04:00</updated><id>https://hamidah.me/blog/anotherone1</id><content type="html" xml:base="https://hamidah.me/blog/anotherone1/"><![CDATA[<p>I’ve lightly subscribed to two blog posts a month, so here we are. I’m unsure what to write, but lately, my conversations prove that my talking knows no bounds once she is unleashed. I need a title for this form of content: the macrodose (a la Reboot)? the tidbit (a la William)? assorted links (and thoughts) (a la Tyler Cowen)? or the ramble (a la myself)? Furthermore, it’s become moral imperative that I read a lot. I love the wisdom of older people who prove me dumber with each sentence. Man, I’m illiterate.</p>
+
+<p>Anyway, here are some of my reactions to some of the things that I’ve encountered in the past two weeks.</p>
+
+<p>In his essay, “<a href="https://www.paulgraham.com/writes.html">Writes and Write-Nots</a>,” Paul Graham describes the intellectual divide that will emerge in this new world that we find ourselves in. There will be the writers and the ones who do not write. There will be those who can whip up prose at a moment’s notice and those who will have to open up their phone to search for a URL, leading them to a prompt box, allowing them to write. Then, when I think about this. I find it interesting that they’re now the blogger’s evangelical. Casey Handmer, <a href="https://foreignpolicy.com/2007/10/26/tyler-cowen-on-the-economics-of-blogging/">Tyler Cowen</a>, Paul Graham and the like make it seem blasphemous not to have a blog. We do not have to write with ink; merely type on our keyboards, and without summoning a pigeon, this work can be shared with the whole world at a button’s notice! And yet, here we are, waiting for a successful person to motivate us to write down our rambly thoughts and share them in more than 140 characters.</p>
+
+<p>Recently, the Progress Conference was held in Berkeley. I didn’t attend, but it seemed like a fun time; my feed was filled with new excitement, which was fun and exciting. I’ve also started reading <em>Escape from Earth</em> by Fraser Macdonald. I like it quite a bit. Anyway, it shares the story of scientist Frank Malina and the evolution of the Jet Propulsion Library. We have a Xeroc PARC and its associates in star power. Their job is to figure out the technical substrates of magnificence, the magnificent thing that sends metal straight into the sky at a velocity so quickly it escapes the atmosphere and enters orbit. They do it. They realize that as something increases in altitude, perhaps it sheds the weight it does not need. Malina and co. They succeed. It builds Caltech, the hub of the Pacific national scientific enterprise.</p>
+
+<p>But, here I see something surreal: the notion that the work of the scientists at JPL was accelerated by imminent war—going from the astronautical to the aeronautical. They’re all one secret away from being exposed as spies, factual or not, and being imprisoned for decades. The war-comes-technology thesis makes much sense. Fury drives action and money. Money is everything, and governments have quite a bit of it. This is a narrow light on my views. Still, I find it hard to believe that when my dear friends mention high-skilled immigration, metascience, and AI safety as the due priorities of the upcoming election, they remember that much of this shift in appreciation is in preparation for potential war. These subjects are not disjoint. The cerebral gets to think and preach in the public light as much as possible, but money is only put where the mouth is under dire circumstances.</p>
+
+<p>This all becomes real when I remember that a few weeks ago, maybe a few months ago, I got a lab email saying that members should be careful bringing their laptops during international travel, especially if they were going to Russia, China, and so on…the adversaries. We live our lives, and there’s little mention of the Smith Act, passed under Roosevelt. The law that mandates non-citizens to register with the government and forbade overthrowing it.</p>
+
+<p>The only Bertrand Russell authored text I’ve read is “In Praise of Idleness.” I read it in reparations for my rat-race-afflicted soul, reaching for something more and, in that, facing that it needed much less. Well, the essay was good. I reread it now to recall whether the statement is true. But in bringing him up about a week ago, I was intrigued about his life. And it turns out, it is pretty sorrowful. He was a member of yet another <a href="https://www.britannica.com/topic/Apostles">collaborative circle</a> (unsurprising). He led a hearty life, was a Nobel Prize laureate in literature, and was a very prolific writer—a true polymath, who found appreciation and scholarship in literature and mathematics. His reductionism was uncharacteristically idealistic, whereby all we know of the mathematical world could be boiled down to a few simple ideas. He was a logician. I write this all in a summary of the autobiography I currently read. This is a reminder to explore his life in more depth. Existential depression is the greatest friend, but it precedes the greatest betrayal. You fall in love with the world so profoundly that you’re left distraught and broken.</p>
+
+<p>In like fashion, I’m reading <em>Consilience</em> by E.O. Wilson. The biologist-written book calls for great convergence if you will. There’s no discernment between discipline when we all seek enlightenment and wisdom, not discovery and menial, marginal, scientific advancement.</p>
+
+<p>With this, I’m quite frustrated that I’m not a worldly woman. I do not know what’s going on across the pond. I write this not to complain nor to brag that I live a life of bliss and can ignore such things. I write this to contextualize what I ought to do. Go back? Write about them. Read about them? Read about me? My start. All that I’m here for. After all, I’m much more than the eagle.</p>
+
+<p>In all, may we lead meaningful lives. Let there be a habitable world to lead them in.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[I’ve lightly subscribed to two blog posts a month, so here we are. I’m unsure what to write, but lately, my conversations prove that my talking knows no bounds once she is unleashed. I need a title for this form of content: the macrodose (a la Reboot)? the tidbit (a la William)? assorted links (and thoughts) (a la Tyler Cowen)? or the ramble (a la myself)? Furthermore, it’s become moral imperative that I read a lot. I love the wisdom of older people who prove me dumber with each sentence. Man, I’m illiterate.]]></summary></entry></feed>

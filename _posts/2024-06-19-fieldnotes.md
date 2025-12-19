@@ -51,3 +51,4 @@ I also remember another reason why I found this book so cool: when I was getting
 > And: "Note-taking helped transform me from a young boy on barefoot runs who passively observed the tangled bank of the Maine woods into a naturalist-scientist who is an active participant in unraveling the mysteries of the natural world."
 
 
+

@@ -50,3 +50,4 @@ It's more a vessel for people in other fields who already use math as a way of f
 The tedium isn't just busywork—it's where intuition develops, where you build the tacit knowledge that lets you spot patterns and anomalies that automated systems might miss. The question isn't whether we can automate these processes, but whether we should, and what we lose in translation when we do.
 
 
+

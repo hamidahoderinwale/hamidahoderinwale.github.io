@@ -64,3 +64,4 @@ Like Schmidhuber, I think a major benefit of LLMs is how they can make research 
 That said, I'm not sure Vaswani et al. needed to know how to write a device driver from scratch to develop their work. But if they did, I'm curious what kind of tacit learning influenced their work.
 
 
+

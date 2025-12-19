@@ -25,3 +25,4 @@ Groupthink is a term that coins the exact opposite of epistemological individual
 My experience with groupthink is not that different from others, which signals the widespread absence of this quality in the majority. Many institutions highly value the ability to conform and this courtesy extends to beliefs as well. This evolutionary psychological trait often puts us in suboptimal conditions, but there are ways to interact with the world that would help us to work towards a better version of ourselves and hold ideologies that we can truly call our own.
 
 
+

@@ -81,3 +81,4 @@ Other people's thoughts that I find interesting on the topic:
 - Twitter thread from @DavidSKreuger: https://twitter.com/davidskrueger/status/1574701979279818752?s=46&t=NIuYroEtyukzRCQ-PJN3Ew
 
 
+

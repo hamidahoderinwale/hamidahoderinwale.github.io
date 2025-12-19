@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="/site.css">
+    <link rel="shortcut icon" type="image/png" href="/android-chrome-512x512.png"/>
+    <link rel="alternate" type="application/rss+xml" title="Hamidah's Blog RSS Feed" href="/feed.xml">
+    <title>Representations Are All You Need | Hamidah Oderinwale</title>
+</head>
+<body>
+    <nav>
+        <a href="/">Home</a> | 
+        <a href="/blog/blog.html">Posts</a> | 
+        <a href="/blog/readme.html">Read Me</a> | 
+        <a href="/lof/" target="_blank">Lof</a> | 
+        <a href="/blog/more.html">More</a> | 
+        <a href="https://curius.app/hamidah-oderinwale" target="_blank">Curius</a> | 
+        <a href="https://github.com/hamidahoderinwale" target="_blank">GitHub</a> | 
+        <a href="https://twitter.com/didaoh" target="_blank">Twitter</a>
+    </nav>
+    
+    <link rel="stylesheet" type="text/css" href="/blog/blog.css">
+
+<article>
+    <h2>Representations Are All You Need</h2>
+    
+    <p><i>December 27, 2024</i></p>
+    
+    
+    
+    
+    
+    <p><i>Some very rough, quick thoughts. This was partly inspired by some of Adam Brown's comments on Dwarkesh's podcast.</i></p>
+    
+    
+    <hr>
+    
+    <p>At Topos, we’ve been working on a meta-modeling tool. It’s called CatColab and you can check it out <a href="https://next.catcolab.org/">here</a>. At first, I was just excited to join what seemed like a group of really intelligent people. In this regard, I was definitely not disappointed and have had an amazing time so far! However, having written TypeScript and Rust for this application for much of the past few months, I ought to be able to explain what it does and why it’s useful. For an excellent reference point, you can look at <a href="https://topos.institute/blog/2024-10-02-introducing-catcolab/">this blog post</a> authored by one of the engineers!</p>
+
+<p>As for my takes, have you ever had those experiences where you’re trying to recall something and you’re asking the person you’re having a conversation with to help? Perhaps you’re trying to explain what a specific meal is called. You want to try and make it again. You had it as a kid. You had when you’re eight. You forgot the name but you’d like to remember it so you can find a recipe. Perhaps you start by explaining what it tastes like: the olfactory system has enough variance that you don’t really have any luck. You switch to explaining the different ingredients, but everything was sufficiently cooked together that it doesn’t give much insight into the meal you’re trying to describe. From the little information they have, they start calling back to you with plausible meals that come to their mind. You know they’ve had it before, and you do this back-and-forth, going in cycles of “no, buts” and after 20 minutes, you’ve successfully been able to explain the meal that you remember having when you were eight, and you can carry on with the rest of your conversation. This is an example of “collaborative reasoning.” I presented a very ad hoc, rough-cut, and bespoke example, but hopefully it gives some gist of what I’m trying to get at. Of course, (when we do research) we collaboratively reason in many cases: when we engage in discourse about papers, when we’re trying to figure out the next steps, when we try and work on a research project, or tackle an issue together.</p>
+
+<p>Now, there’s something here, which is that (in this case) I speak in natural language, specifically English. English has some formality; we have some structure. But we have langauges that are even more formal than language that is spoken and written such as domain-specific notations (like UML for software design), formal grammars (like the Chomsky hierarchy, recursive enumerable (RE) grammars, and so on), logical notations (like predicate logic or propositional logic), mathematical notations (like set theory, calculus (debatably?), or category theory), and programming languages (ranging from Python and other general high-level languages and scripting languages like HTML and JavaScript to lower-level languages like C and Assembly as well as functional programming languages like Haskell and Lisp). There’s even more formal ones such as verification languages like Allow or TLA+ and then Assembly and Machine Code at the top of the hierarchy like x86 assembly languages and ARM’s A64 assembly language.</p>
+
+<p>That said, when I speak and you understand, it suggests that I adequately conform to the <a href="https://en.wikipedia.org/wiki/Formal_grammar">(formal) grammar</a> of the language. When I combine words in this language in ways that express ideas and you understand, it means I semantically make sense. Simply put, you get what I <em>mean</em>. I conform to the order of broader logic. Natural language is great, and it’s really expressive and low-effort. In fact, when me and you read the same book we very likely think of these very different words despite reading the same text.</p>
+
+<p>That said, however, my friend and I probably have a much easier time accomplishing the exercise above because of how well we know each other: over time we’ve gotten along and spoken, we’ve built context that goes unsaid but oils the gears in our minds as we try to recall this meal, this object, this thing. You know what my favorite meal is, you know my ethnicity, you know what I’m allergic to, you know what restaurants I’ve been to in the past few months, and more. If I were to do this same exercise with someone I’d just met, in the absence of this context, it would have been much harder. If I did this with someone who spoke a whole other language, then we’d probably not get very far <em>if we spoke</em>. However, perhaps if I switch to another medium that lets us rise above the linguistic barriers between us—I get out a paper and pencil and start drawing, or you watch as I prompt Sora with the little tidbits that come to mind—we get somewhere; perhaps we work even faster than when I do the back-and-forth with my friend.</p>
+
+<p>There are some cases and reasons why this is true. We have logs of our past thoughts and I can refer back to a single prompt and iterate upon it, dropping the thread when my adjustments aren’t getting me closer to the image in my mind. All the things that I can’t articulate as I go through the motions of recall are shown, and your mental model can grow in detail as I more “honestly” and declaratively express the contents of mine.</p>
+
+<p>This was a pretty long exposition to introduce graphical modeling that’s grounded in grammars: rules and logic. When we’re doing collaborative modeling, we have the ideas that we want to express and mutually understand. Therefore, we need some medium to work with: natural language, code, diagrams, and the like. And of course, we need our ideas, and by virtue of choosing to spend our time doing this, engaging with each other, collaborating and reasoning (together), we ought to have a goal.</p>
+
+<p>Now, this makes the case for a meta-modeling language. Of course, we could have code that we decode and then generate diagrams. Here, logic is imparted on us by keeping to the grammars of the code, our language; and the visualizations are then generated post-hoc, but there’s a gap between what is in my mind, writing down my ideas in (good) grammar (especially forced by the compiler), and then finally having the visualization. There are many cases in which you find that the outputs aren’t what you wanted: this is the basis of imperative programming, and it means there’s an added layer (of friction) in our reasoning where I’m trying to iterate on the (public) representations I’m trying to share. It would be nice if we could make this layer as thin as possible—transparent (how do we communicate the choice of representation and how it’s composed and how it was arrived at?). How do we make it as seamless as possible, maybe working directly to make our representations as we express our ideas in the first place: choose and in fact do the latter example, work in the second mode when we try to explain things to each other and work on things?</p>
+
+<p>This is interesting but very abstract. On one hand, mathematics and philosophy think exclusively in this domain. They are meta-domains; the objects are abstract and interoperable.  These objects can represent a wide range of concepts—such as arguments, operands, and entities—that interact, transform, and exist in multiple dimensions. In this sense, they function as models for understanding various phenomena, from human cognition to statistical features and even the structure of the universe. Nonetheless: Importantly, both mathematics and philosophy have critical mass. I think there’s something here in applying these meta-domains, building out these reasoning constructs. This is something that typing, defining logical patterns, and so on help us to do. Writing is a valuable task for people because you are forced to write in grammar; each sentence is an assertion of thought so you have to have them, and therefore building these models—that we can do in CatColab, but that we can also do when we write functions and we’re forced to ask ourselves what we want this macro to accomplish, even more so when we write in declarative languages.</p>
+
+<p>On that note: I’ve been (slowly) reading <em>Knowledge Representation: Logical, Philosophical, and Computational Foundations</em> by John F. Sowa, and it’s interesting. I’ve been thinking more about who the contemporary philosophers of our time are: less so the ethicists, but perhaps the logicians, those who come up with these structures of thought and reasoning and how they work. For example, I found this view of the lattice representations for concepts to be incredibly elegant.</p>
+
+<p><img src="https://www.jfsowa.com/figs/bigtop.gif" alt="Hierarchy of top-level categories represented by J.F. Sowa's lattice diagram." /></p>
+
+<p><em>Diagram from John F. Sowa’s <a href="https://www.jfsowa.com/ontology/toplevel.htm">post</a> on “Top-Level Categories.”</em></p>
+
+<p>Should we be trying to concretize the construction of bigger ideas that rest on these “new paradigms?” Indeed, I’ve increasingly seen that “learning” moments of awe, and maybe even moments of breakthrough have been the product of recognizing these analogies. I did a tutoring session for a high school student who was taking calculus, and what felt really satisfying for me to do, and was hopefully helpful for her, was recalling these concepts that she’d learned earlier in high school and middle school: for example, the transformations of polynomials and trying to make sense of things like the composition of functions or continuity.</p>
+
+<p>I remember taking the boilerplate formulas for the former very much for granted because they were introduced in isolation, but because it’s something she recalled and was confident in—work she’d seen time and time again—I hopefully could build intuition for her current work while contextualizing the work from the past. That was really great, and her second test ended up going well! On a side note, it was really fun and cool to tutor again, especially for calculus, and I really enjoy teaching: I have ways to improve, but I seek out opportunities to do it more. Lastly, I mention the “combinatorial model of invention” pretty often, but insofar as innovations are building new LEGO constructions with blocks that fit—brick-by-brick—then getting these new shapes or knowing that certain base combinations work to make these nice shapes is really valuable and helps you make more interesting things. That’s how I feel about this line of work. Perhaps there’s a philosophy (of math) arc that I’m yet to explore. Exciting stuff! I had the pleasure of speaking with <a href="https://www.juliashaas.com/">Julia Haas</a> when I was in high school, which gave me some insight into what philosophy at a large AI lab looks like: she focuses more on consciousness and, of course, ethics, but I’m curious to see if there are logicians and the like: there seems to be many cool areas of work.</p>
+
+
+</article>
+
+
+
+</body>
+</html>
+

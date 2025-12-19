@@ -67,3 +67,4 @@ If you're applying for graduate school programs, you get in. You've applied with
 My relationship with something like sheer curiosity is young and naive, but there's something here. It's the reason why academics awarded with prizes tend to be less productive, the escape from "ambitious" environments feels so freeing, and an open-ended research project sometimes feels like stepping out into fresh air or having your head pushed down a dark tunnel that you know may never end. *To play*...productively.
 
 
+

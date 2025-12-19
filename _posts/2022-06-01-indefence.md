@@ -29,3 +29,4 @@ In conclusion, public health policy aims to achieve optimal mutual gain; thus, t
 - [Social justice as a foundation for democracy and health BMJ 2020](https://doi.org/10.1136/bmj.m4049)
 
 
+

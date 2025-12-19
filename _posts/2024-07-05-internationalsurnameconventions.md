@@ -17,3 +17,4 @@ I mean we do have Genghis Khan, et al. who were just very prolific in their, *um
 Anyway, another ethnic group with interesting last names are Sri Lankans. Sinhalese last names are very long. Apparently the transliteration to English makes them long, which can be the case for a lot of Nigerian names as well. It's because of this linguistic convention where apparently "the vowel 'a' sound is incorporated into the letter." According to [Quora](https://www.quora.com/Why-do-Sri-Lankans-have-such-long-names), "each syllable is represented by one letter." I need to look into this more because I can't really explain what that means in practice.
 
 
+

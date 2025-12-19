@@ -15,3 +15,4 @@ At ESPR, I sat in on a class. In this class, we discussed what it meant to be on
 Growing up, I dabbled in this. Choosing the areas of lowest concentration – knowing that an ability to emerge into my own was possible with a lot less friction. Although, generally this means that you face the trade-off of interestingness and legibility. For the trailblazers in their respective fields, they were originally drawn to their fields of study for their interestingness but their legibility to the outside world likely "suffered" as a result. Fewer people in their social circles understood their "whys" and as such, they were the outsiders amongst their peers, but still managed to push frontiers – (mainly) benefiting society as a whole.
 
 
+

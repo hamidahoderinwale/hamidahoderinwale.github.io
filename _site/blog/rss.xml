@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+  <title>Hamidah's Blog</title>
+  <link>https://hamidah.me/blog.html</link>
+  <description>A collection of ramblings that I edit to varying degrees on an ongoing basis.</description>
+  <language>en-us</language>
+  <item>
+    <title>Event Capture in (Collaborative) Systems: Diffs and Storyboards</title>
+    <link>https://hamidahoderinwale.bearblog.dev/event-capture-in-collaborative-systems-diffs-and-storyboards/?token=881be6c7ed</link>
+    <pubDate>Mon, 9 June 2025</pubDate>
+  </item>
+  <item> 
+    <title>A Month in Questions</title>
+    <link>https://hamidah.me/amonthinquestions.html</link>
+    <pubDate>Sun, 30 Mar 2025</pubDate>
+  </item>
+  <item>
+    <title>Trying to Understand (Double) Categorical Systems Theory</title>
+    <link>https://hamidah.me/blog/dcst.html</link>
+    <pubDate>Tues, 25 Mar 2025</pubDate>
+  <item>
+    <title>Notes on Consilience</title>
+    <link>https://hamidah.me/blog/consilience.html</link>
+    <pubDate>Mon, 17 Feb 2025</pubDate>
+  </item>
+  <item>
+    <title>Another Year</title>
+    <link>https://hamidah.me/blog/anotheryear.html</link>
+    <pubDate>Tues, 31 Dec 2024</pubDate>
+    <description>A post to end the year.</description>
+  </item>
+  <item>
+    <title>Representations Are All You Need</title>
+    <link>https://hamidah.me/blog/representationsareallyouneed.html</link>
+    <pubDate>Fri, 27 Dec 2024</pubDate>
+    <description>Representations, rep, idk.</description>
+  </item>
+  <item>
+    <title>Another One [2]</title>
+    <link>https://hamidahoderinwale.bearblog.dev/another-one-2/</link>
+    <pubDate>Fri, 29 Nov 2024</pubDate>
+    <description>musings</description>
+  </item>
+  <item>
+    <title>On Knowledge Codification</title>
+    <link>https://hamidahoderinwale.bearblog.dev/on-knowledge-codification/</link>
+    <pubDate>Fri, 15 Nov 2024</pubDate>
+    <description>Archiving, libraries, and economic development.</description>
+  </item>
+  <item>
+    <title>Another One [1]</title>
+    <link>https://hamidah.me/blog/anotherone1.html</link>
+    <pubDate>Thurs, 31 Oct 2024 21:31:24 PST</pubDate>
+    <description>takes and notes</description>
+  </item>
+  <item>
+    <title>Neural Representations, Manifolds, and Motivations</title>
+    <link>https://hamidah.me/blog/neuralrepresentations.html</link>
+    <pubDate>Sun, 13 Oct 2024 20:24:00 PST</pubDate>
+    <description>theoretical neuroscience research comments</description>
+  </item>
+  <item>
+    <title>A Short Post on Digital Libraries and More</title>
+    <link>https://hamidah.me/blog/digitallibraries.html</link>
+    <pubDate>Fri, 27 Sep 2024 15:52:00 PST</pubDate>
+    <description>A Short Post on Digital Libraries and More</description>
+  </item>
+  <item>
+    <title><i>Walden</i>: Reflections and Digressions</title>
+    <link>https://hamidah.me/blog/walden.html</link>
+    <pubDate>Thu, 12 Sep 2024 09:22:00 GMT</pubDate>
+    <description>I read <i>Walden</i>.</description>
+  </item>
+  <item>
+    <title>Scarry's Beauty</title>
+    <link>https://hamidah.me/scarry.html</link>
+    <pubDate>Thu, 25 Aug 2024 00:00:00 GMT</pubDate>
+    <description>Thoughts on Scarry's Beauty</description>
+  </item>
+  <item>
+    <title>Pachinko by Min Jin Lee: Reflections</title>
+    <link>https://hamidah.me/pachinko.html</link>
+    <pubDate>Fri, 09 Aug 2024 00:00:00 GMT</pubDate>
+    <description>Reflections on the novel Pachinko by Min Jin Lee</description>
+  </item>
+  <item>
+    <title>Get Good and Copy</title>
+    <link>https://hamidah.me/getgoodandcopy.html</link>
+    <pubDate>Fri, 02 Aug 2024 00:00:00 GMT</pubDate>
+    <description>Thoughts on getting good and copying</description>
+  </item>
+  <item>
+    <title>Episteme and Techne</title>
+    <link>https://hamidah.me/craft.html</link>
+    <pubDate>Thu, 11 Jul 2024 00:00:00 GMT</pubDate>
+    <description>Exploring the concepts of Episteme and Techne</description>
+  </item>
+  <item>
+    <title>Understanding Existentialism</title>
+    <link>https://hamidah.me/existentialismisahumanism.html</link>
+    <pubDate>Sat, 06 Jul 2024 00:00:00 GMT</pubDate>
+    <description>An exploration of existentialism</description>
+  </item>
+</channel>
+</rss>

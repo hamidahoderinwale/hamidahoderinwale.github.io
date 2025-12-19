@@ -68,3 +68,4 @@ plato argued that creativity, that art was 'ex-nihilo', that all creation of the
 purity in ingenuity. simple. kinda basic.
 
 
+
