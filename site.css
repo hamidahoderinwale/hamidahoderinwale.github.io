@@ -13,8 +13,8 @@ body {
     font-family: 'Optima', 'Helvetica', 'Arial', sans-serif;
     max-width: 85ch;
     border: 2px solid #000;
-    overflow: hidden;
-    /* Ensures no overflow from the body container */
+    overflow: auto;
+    /* Allows scrolling when content exceeds viewport */
 }
 
 a {
