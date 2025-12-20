@@ -4,6 +4,8 @@ layout: default
 <link rel="stylesheet" type="text/css" href="{{ '/blog/blog.css' | relative_url }}">
 
 <article>
+    <p><a href="{{ '/blog/blog.html' | relative_url }}">← Back to posts</a></p>
+    
     <h2>{{ page.title }}</h2>
     {% if page.date %}
     <p><i>{{ page.date | date: "%B %d, %Y" }}</i></p>
@@ -21,6 +23,8 @@ layout: default
     
     {{ content }}
 </article>
+
+
 
 
 
