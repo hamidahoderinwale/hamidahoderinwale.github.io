@@ -32,3 +32,5 @@ So now, we also understand subjectivity and moral relativism. Sartre describes t
 
 
 
+
+

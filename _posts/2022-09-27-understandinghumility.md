@@ -82,3 +82,5 @@ Other people's thoughts that I find interesting on the topic:
 
 
 
+
+

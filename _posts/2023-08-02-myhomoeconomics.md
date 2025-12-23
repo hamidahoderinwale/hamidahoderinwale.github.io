@@ -80,3 +80,5 @@ This is not focusing on learned helplessness per say, but wavers at this general
 
 
 
+
+
