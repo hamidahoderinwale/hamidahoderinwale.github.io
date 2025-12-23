@@ -6,6 +6,12 @@
   <description>A collection of ramblings that I edit to varying degrees on an ongoing basis.</description>
   <language>en-us</language>
   <item>
+    <title>(Researched) Advice I Like</title>
+    <link>https://hamidah.me/blog/advice-i-like/</link>
+    <pubDate>Mon, 23 Dec 2025</pubDate>
+    <description>A list of advice I like on scholarship.</description>
+  </item>
+  <item>
     <title>Event Capture in (Collaborative) Systems: Diffs and Storyboards</title>
     <link>https://hamidahoderinwale.bearblog.dev/event-capture-in-collaborative-systems-diffs-and-storyboards/?token=881be6c7ed</link>
     <pubDate>Mon, 9 June 2025</pubDate>
@@ -19,6 +25,7 @@
     <title>Trying to Understand (Double) Categorical Systems Theory</title>
     <link>https://hamidah.me/blog/dcst.html</link>
     <pubDate>Tues, 25 Mar 2025</pubDate>
+  </item>
   <item>
     <title>Notes on Consilience</title>
     <link>https://hamidah.me/blog/consilience.html</link>
