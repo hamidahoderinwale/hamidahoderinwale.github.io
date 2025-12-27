@@ -10,11 +10,11 @@ layout: default
     <hr>
     
     <div id="blog-posts-container">
-        <p><em><a href="{{ '/blog/whoosh.html' | relative_url }}">The deeper ends</a>.</em></p>
-        
         {% assign sorted_posts = site.posts | sort: 'date' | reverse %}
         {% for post in sorted_posts %}
-            <p>{{ post.date | date: "%B %d, %Y" }} | <a href="{{ post.url | relative_url }}">{{ post.title }}</a></p>
+            {% unless post.title == "Whoosh" or post.title == "Spending Time" %}
+                <p>{{ post.date | date: "%B %d, %Y" }} | <a href="{{ post.url | relative_url }}">{{ post.title }}</a></p>
+            {% endunless %}
         {% endfor %}
         
         <!-- External posts (manually maintained) - most recent first -->
