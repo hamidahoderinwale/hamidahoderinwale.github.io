@@ -9,11 +9,11 @@ _As with most things on this site, this is a work in progress._
 
 One great thing about the internet is that advice is ample. While I think directly talking to someone you've reached out to is valuable, there is a lot to gain from seeking out expert opinion in the wild. This year, I spent a lot of time gaining exposure to research. Research encompasses a broad spectrum of activities, but in my infancy pursuing it, I would define it as the pursuit of understanding as a tool. And I think this pursuit is very cool. 
 
-Journalists seek to understand, and their goal is to communicate that understanding to the public. Researchers seek to understand, and their goal is to communicate that understanding to the public. The engineer seeks to understand, so that they can tinker, fix, and build. The (academic) researcher seeks to understand, so that they can build new tools of thought that others can extend upon. 
+Journalists seek to understand, and their goal is to communicate that understanding to the public. Researchers seek to understand, and their goal is to communicate that understanding to the public. The engineer seeks to understand, so that they can tinker, fix, and build---often for the public. The (academic) researcher seeks to understand, so that they can build new tools of thought that others can extend upon. 
 
 That said, it's been hard to decompose what it means to do research, how to do it well, and assume the traits of a good researcher. Furthermore, what does "good" even mean?
 
-I think a good researcher is one who has their audience in mind, but I think tending to said audience can feel paralyzing. I think good research doesn't have to stem from curiosity or "first-principles" but that being a good researcher means valuing both. I also think the best researchers have very top-down research agendas. Faculty positions will ask candidates to present research statements, which can be taken as an expression of your interests and a cover letter of past experiences but in reality read more as expressions of your research taste. Naively, I think the best of them, articulate a narrative about world order, a theory of change coupled with motivations for why that change is needed, and a set of mediums and modes for executing on that change.
+I think a good researcher is one who has their audience in mind, but I think tending to said audience can feel paralyzing. I think good research doesn't have to stem from curiosity or "first-principles" but that being a good researcher means valuing both. I also think the best researchers have very top-down research agendas. Faculty positions will ask candidates to present [research statements](https://mitcommlab.mit.edu/eecs/wp-content/uploads/sites/6/2021/09/Elena-Glassman-research-statement-annotated.pdf), which can be taken as an expression of your interests and a cover letter of past experiences but in reality read more as expressions of your research taste. Naively, I think the best of them, articulate a narrative about world order, a theory of change coupled with motivations for why that change is needed, and a set of mediums and modes for executing on that change.
 
 Most concretely, some things I have learnt for myself are:
 
@@ -32,4 +32,3 @@ Anyways, this is just a list of writings I like. So here they are:
 - [*Nikhil Garg's Blog*](https://gargnikhil.com/Blog/)
 - [*On Writing* by Terence Tao](https://terrytao.wordpress.com/advice-on-writing-papers/)
 - [Elicit on Career Growth](https://elicit.com/blog/career-growth/)
-
