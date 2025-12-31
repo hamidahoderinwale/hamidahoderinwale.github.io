@@ -9,7 +9,7 @@ _As with most things on this site, this is a work in progress._
 
 One great thing about the internet is that advice is ample. While I think directly talking to someone you've reached out to is valuable, there is a lot to gain from seeking out expert opinion in the wild. This year, I spent a lot of time gaining exposure to research. Research encompasses a broad spectrum of activities, but in my infancy pursuing it, I would define it as the pursuit of understanding as a tool. And I think this pursuit is very cool. 
 
-Journalists seek to understand, and their goal is to communicate that understanding to the public. Researchers seek to understand, and their goal is to communicate that understanding to the public. The engineer seeks to understand, so that they can tinker, fix, and build---often for the public. The (academic) researcher seeks to understand, so that they can build new tools of thought that others can extend upon. 
+Journalists seek to understand, and their goal is to communicate that understanding to the public. The engineer seeks to understand, so that they can tinker, fix, and build---often for the public. The (academic) researcher seeks to understand, so that they can build new tools of thought that others can extend upon. 
 
 That said, it's been hard to decompose what it means to do research, how to do it well, and assume the traits of a good researcher. Furthermore, what does "good" even mean?
 
