@@ -20,7 +20,6 @@ layout: default
         {% assign external_dec_2023_shown = false %}
         {% assign external_nov_2023_shown = false %}
         {% assign external_june_2023_shown = false %}
-        {% assign external_apr_2023_shown = false %}
         
         {% for post in sorted_posts %}
             {% unless post.title == "Whoosh" or post.title == "Spending Time" %}
@@ -62,11 +61,6 @@ layout: default
                     {% assign external_june_2023_shown = true %}
                 {% endif %}
                 
-                {% if post_date < "2023-04-19" and external_apr_2023_shown == false %}
-                    <p>April 19, 2023 | <a href="https://onedropofcoffee.substack.com/p/give-and-take.html" target="_blank">Give and Take</a></p>
-                    {% assign external_apr_2023_shown = true %}
-                {% endif %}
-                
                 <p>{{ post.date | date: "%B %d, %Y" }} | <a href="{{ post.url | relative_url }}">{{ post.title }}</a></p>
             {% endunless %}
         {% endfor %}
@@ -74,9 +68,6 @@ layout: default
         {% comment %} Show any remaining external posts that are older than all Jekyll posts {% endcomment %}
         {% if external_june_2023_shown == false %}
             <p>June 2023 | <a href="https://hackmd.io/@ecx2VlHIRJSuD55CidtDSw/ByZRgBtOh" target="_blank">Ramblings on the Creative Technologists</a></p>
-        {% endif %}
-        {% if external_apr_2023_shown == false %}
-            <p>April 19, 2023 | <a href="https://onedropofcoffee.substack.com/p/give-and-take.html" target="_blank">Give and Take</a></p>
         {% endif %}
     </div>
 </div>
