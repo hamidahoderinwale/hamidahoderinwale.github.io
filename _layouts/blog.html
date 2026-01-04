@@ -22,7 +22,7 @@ layout: default
         {% assign external_june_2023_shown = false %}
         
         {% for post in sorted_posts %}
-            {% unless post.title == "Whoosh" or post.title == "Spending Time" or post.title == "French Discomfort" or post.title == "Life As of Now, October 2023" %}
+            {% unless post.title == "Whoosh" or post.title == "Spending Time" or post.title == "French Discomfort" or post.title == "Life As of Now, October 2023" or post.title == "Reflections in a list." %}
                 {% assign post_date = post.date | date: "%Y-%m-%d" %}
                 
                 {% comment %} Insert external posts before Jekyll posts with earlier dates {% endcomment %}
