@@ -70,11 +70,11 @@ onto the next. aesthetics! perhaps i'm weird for liking brutalist architecture. 
 
 modern. clean. kinda clunky. easy on the eyes.
 
-![Brutalist architecture](https://cdn.mos.cms.futurecdn.net/xEQUCv5DADy8qxuuQGetBK-1600-80.jpg.webp)
+![Brutalist architecture](https://cdn.mos.cms.futurecdn.net/xEQUCv5DADy8qxuuQGetBK-1600-80.jpg.webp){: style="max-width: 600px; width: 100%; height: auto;"}
 
 but yeah, a lot of people hate on buildings like this. i mean i can't exactly blame them. brutalist exteriors are kinda mid. but, i don't know, still pretty solid to me. anyways beauty is in the eyes of the beholder, yadda yadda.
 
-![Brutalist architecture](https://cdn.mos.cms.futurecdn.net/Dqee9qPxxk8bx6pw5Nviak.jpg)
+![Brutalist architecture](https://cdn.mos.cms.futurecdn.net/Dqee9qPxxk8bx6pw5Nviak.jpg){: style="max-width: 600px; width: 100%; height: auto;"}
 
 anyways tyler cowen actually commented on this in a podcast interview.
 
@@ -163,6 +163,14 @@ but it was wholesome in that it tells you to scrap the advice all-together for s
 things are moving fast, and there's an essence of the world i observe. i yearn for it. it's something i want to protect. how do i articulate that? i failed it to do it in the past thousands words or so. but, i'm convinced of its importance. i figure i need a modern shelley to explain it better because..
 
 > poetry acts in another and diviner manner. It awakens and enlarges the mind itself by rendering it the receptacle of a thousand unapprehended combinations of thought. Poetry lifts the veil from the hidden beauty of the world, and makes familiar objects be as if they were not familiar; it reproduces all that it represents, and the impersonations clothed in its Elysian light stand thenceforward in the minds of those who have once contemplated them, as memorials of that gentle and exalted content which extends itself over all thoughts and actions with which it coexists."
+
+
+
+
+
+
+
+
 
 
 
