@@ -49,11 +49,9 @@ Another hypothesis is the idea of *Cosmic Inflation*, which can help to solve th
 
 Ultimately, the expanding universe, Hawking radiation, the ejection of extraterrestrial masses, its black holes, etc., amasses a large amount of entropy that keeps up with the understanding of thermodynamics.
 
-![Image](images/image2.png)
-
 Later in 2009, the paper *Quantum mechanical evolution towards thermal equilibrium* was published and ties into the thermodynamic conception of time that Hawking posits. It tries to explain the ergodynamic nature of dynamical systems like the universe. Ultimately, all microstates (possibilities) have an equal probability of occurring over a long enough time horizon. The implication is that in a system, every state has a chance of happening, especially if understood ergodically, where this probability is actually equal upon a final "heat death" when entropy reaches its maximum value. Ultimately, as a "physical system becomes entangled with its surroundings, it moves closer to equilibrium." The one-way evolution of this universal property determines the direction of the arrow of time.
 
-Another hypothesis starts with an understanding that the entire universe is a statistical event and there is not a single universe (or the only universe that exists isn't the one we currently live in). As such, in these other universes, there are arrows of time that point in other directions. The proposed probability for an alternatively-pointing arrow is low,, but it remains possible within this frame of thinking.
+Another hypothesis starts with an understanding that the entire universe is a statistical event and there is not a single universe (or the only universe that exists isn't the one we currently live in). As such, in these other universes, there are arrows of time that point in other directions. The proposed probability for an alternatively-pointing arrow is low, but it remains possible within this frame of thinking.
 
 However, we can refer back to statistical mechanics to conclude our understanding of why there isn't a paradox. The second law of thermodynamics implies a high probability entropy will increase over time, but it's not a certainty as with many phenomena described in the quantum era.
 
@@ -91,8 +89,6 @@ Within philosophy, we grapple with eternalism, possibilism and presentism when i
 
 Possibilists believe that the above is true. However, the future is merely possible and exists in probabilities. Compared to eternalism, it's less deterministic about the state of the universe. This is largely the view of the Pendurantists.
 
-![Image](images/image1.png)
-
 Lastly, presentists believe that only what is experienced (temporally present) exists and is true, and therefore, there is only what exists now, not in the past and not in the future. Time is thus not an actual dimension or property since the universe doesn't exist relative to it. There is a lack of continuity of time in this worldview.
 
 Once again, we encounter this temporal asymmetry, where, at the very least, we perceive time to be moving in directions and it's forward, and it's also relative to our notions of the past through our memories, for example.
@@ -119,25 +115,33 @@ Exploring time's nature through the lens of diverse scientific disciplines holds
 
 ---
 
-[^1]: [Time Travel | Internet Encyclopedia of Philosophy](https://www.google.com/url?q=https://iep.utm.edu/timetrav/&sa=D&source=editors&ust=1705606956852137&usg=AOvVaw0ZRwjNoeyw7S4ftVxC0uSU)
+[^1]: [Time Travel | Internet Encyclopedia of Philosophy](https://iep.utm.edu/timetrav/)
 
-[^2]: [Lunar calendar | Definition & Facts | Britannica](https://www.google.com/url?q=https://www.britannica.com/science/lunar-calendar&sa=D&source=editors&ust=1705606956849009&usg=AOvVaw0YuEBtm7fd0VBf0DD9lRQs)
+[^2]: [Lunar calendar | Definition & Facts | Britannica](https://www.britannica.com/science/lunar-calendar)
 
-[^3]: [Arrows of Time | Quanta Magazine](https://www.google.com/url?q=https://www.quantamagazine.org/what-is-time-a-history-of-physics-biology-clocks-and-culture-20200504/%23:~:text%3DPhysics%2520%25E2%2580%25A2%2520Culture%26text%3DHawking%2520identified%2520three%2520distinct%2520%25E2%2580%259Carrows,size%2520of%2520the%2520universe%2520increases).&sa=D&source=editors&ust=1705606956850145&usg=AOvVaw1qnYE6pnU7tbGwXlR1Jo3F)
+[^3]: [Arrows of Time | Quanta Magazine](https://www.quantamagazine.org/what-is-time-a-history-of-physics-biology-clocks-and-culture-20200504/)
 
 [^4]: [Time from the Aristotle's perspective](http://www.worldscientificnews.com/wp-content/uploads/2012/11/WSN-6-2014-43-49.pdf)
 
 [^5]: [The arrow of time Volume 7](https://euresis.org/wp-content/uploads/2019/06/EJv7id4_Davies.pdf)
 
-[^6]: [[PDF] Can the Arrow of Time Be Understood from Quantum Cosmology | Semantic Scholar](https://www.google.com/url?q=https://www.semanticscholar.org/paper/Can-the-Arrow-of-Time-Be-Understood-from-Quantum-Kiefer/d6a1326660b2f284e57352e7420285ce66f1b045&sa=D&source=editors&ust=1705606956851135&usg=AOvVaw2InN5hGU2CMONDydCHHpNO)
+[^6]: [Can the Arrow of Time Be Understood from Quantum Cosmology | Semantic Scholar](https://www.semanticscholar.org/paper/Can-the-Arrow-of-Time-Be-Understood-from-Quantum-Kiefer/d6a1326660b2f284e57352e7420285ce66f1b045)
 
-[^7]: [The Beginning to the End of the Universe: The Big Crunch vs. The Big Freeze](https://www.google.com/url?q=https://www.astronomy.com/science/the-beginning-to-the-end-of-the-universe-the-big-crunch-vs-the-big-freeze/&sa=D&source=editors&ust=1705606956851921&usg=AOvVaw1Rme_RO0YY1w5mUfYNaVJJ)
+[^7]: [The Beginning to the End of the Universe: The Big Crunch vs. The Big Freeze](https://www.astronomy.com/science/the-beginning-to-the-end-of-the-universe-the-big-crunch-vs-the-big-freeze/)
 
-[^8]: [17.3: The Friedmann Equation and the Fate of the Universe - Physics LibreTexts](https://www.google.com/url?q=https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Big_Ideas_in_Cosmology_(Coble_et_al.)/17%253A_Dark_Energy_and_the_Fate_of_the_Universe/17.03%253A_The_Friedmann_Equation_and_the_Fate_of_the_Universe&sa=D&source=editors&ust=1705606956851652&usg=AOvVaw2CEJgCrq1wu2E1QyUdYi7u)
+[^8]: [The Friedmann Equation and the Fate of the Universe - Physics LibreTexts](https://phys.libretexts.org/Bookshelves/Astronomy__Cosmology/Big_Ideas_in_Cosmology_(Coble_et_al.)/17%253A_Dark_Energy_and_the_Fate_of_the_Universe/17.03%253A_The_Friedmann_Equation_and_the_Fate_of_the_Universe)
 
-[^9]: [Cosmic inflation solves the "past hypothesis" problem - Big Think](https://www.google.com/url?q=https://bigthink.com/starts-with-a-bang/cosmic-inflation-past-hypothesis/&sa=D&source=editors&ust=1705606956850603&usg=AOvVaw3s2Q6Ci8ehb6JUHeMiGxC0)
+[^9]: [Cosmic inflation solves the "past hypothesis" problem - Big Think](https://bigthink.com/starts-with-a-bang/cosmic-inflation-past-hypothesis/)
 
-[^10]: [https://news.mit.edu/2014/can-we-see-arrow-of-time-0620](https://www.google.com/url?q=https://news.mit.edu/2014/can-we-see-arrow-of-time-0620&sa=D&source=editors&ust=1705606956850881&usg=AOvVaw27zkNql3j6EKFFwLN4rPuV)
+[^10]: [Can we see the arrow of time? - MIT News](https://news.mit.edu/2014/can-we-see-arrow-of-time-0620)
+
+
+
+
+
+
+
+
 
 
 
