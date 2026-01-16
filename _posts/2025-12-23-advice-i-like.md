@@ -32,3 +32,7 @@ Anyways, this is just a list of writings I like. So here they are:
 - [*Nikhil Garg's Blog*](https://gargnikhil.com/Blog/)
 - [*On Writing* by Terence Tao](https://terrytao.wordpress.com/advice-on-writing-papers/)
 - [Elicit on Career Growth](https://elicit.com/blog/career-growth/)
+- ["The  easiest way to access data is the one you don’t know about": backdooring the web by Daniel Byshkin](https://medium.com/@bskdany/the-easiest-way-to-access-data-is-one-you-dont-know-about-db0893796668)
+- ["Lessons from My First 8 Years of Research" by Tom Silver](https://tomsilver.github.io/blog/2024/lessons/)
+- ["The differences between tinkering and research" by Julian Togelius](https://togelius.blogspot.com/2016/04/the-differences-between-tinkering-and.html)
+- [On "Distilling Research at Scale" by myself (cheeky self-promo)](https://topos.institute/blog/2025-04-04-scalable-distillations-for-research/)
