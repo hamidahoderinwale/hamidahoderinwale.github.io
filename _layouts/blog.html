@@ -61,7 +61,9 @@ layout: default
                     {% assign external_june_2023_shown = true %}
                 {% endif %}
                 
-                <p>{{ post.date | date: "%B %d, %Y" }} | <a href="{{ post.url | relative_url }}">{{ post.title }}</a></p>
+                {% comment %} A post may set `link:` in front matter to point the list entry at an external/standalone page instead of its own post page. {% endcomment %}
+                {% if post.link %}{% assign post_href = post.link | relative_url %}{% else %}{% assign post_href = post.url | relative_url %}{% endif %}
+                <p>{{ post.date | date: "%B %d, %Y" }} | <a href="{{ post_href }}">{{ post.title }}</a></p>
             {% endunless %}
         {% endfor %}
         
