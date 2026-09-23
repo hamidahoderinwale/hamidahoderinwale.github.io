@@ -63,7 +63,7 @@ body {
     color: var(--ink);
     background-color: var(--paper);
     max-width: var(--card);
-    margin: clamp(10px, 3vh, 28px) auto;
+    margin: clamp(10px, 5vh, 56px) auto;
     --rail-shift: 0px;
     padding: clamp(20px, 4vw, 40px);
     border: 2px solid var(--ink);
@@ -207,7 +207,7 @@ a:focus-visible {
    Hovering decrypts the label. */
 .rail {
     position: fixed;
-    top: calc(clamp(10px, 3vh, 28px) + clamp(20px, 4vw, 40px));
+    top: calc(clamp(10px, 5vh, 56px) + clamp(20px, 4vw, 40px));
     left: calc(50% + var(--card) / 2 + 18px - var(--rail-shift, 0px));
     display: flex;
     flex-direction: column;
