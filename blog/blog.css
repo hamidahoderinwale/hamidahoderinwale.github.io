@@ -27,3 +27,95 @@ article img, main img {
 article iframe {
   max-width: 100%;
 }
+
+/* Blog index: posts grouped by year, a timeline in the left gutter that
+   marks the year in view (site.js), years as a strip under the nav on
+   narrow screens. */
+.year { scroll-margin-top: 24px; }
+
+.year-label {
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+  margin: 1.6em 0 0.6em;
+}
+
+.year-label .cipher { font-family: var(--font-cipher); opacity: 0.6; }
+
+.host {
+  font-size: 0.8em;
+  color: var(--muted);
+  margin-left: 0.25em;
+}
+
+.timeline {
+  position: fixed;
+  top: calc(clamp(10px, 5vh, 56px) + clamp(20px, 4vw, 40px));
+  left: calc(50% - var(--card) / 2 - var(--rail-shift, 0px) - 18px);
+  transform: translateX(-100%);
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  padding-left: 14px;
+  border-left: 2px solid color-mix(in srgb, var(--ink) 18%, transparent);
+  line-height: 1;
+}
+
+.timeline a {
+  position: relative;
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  padding: 9px 0;
+  color: var(--muted);
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-weight: 500;
+  min-width: 64px;
+}
+
+.timeline .tick {
+  position: absolute;
+  left: -19px;
+  top: 50%;
+  width: 8px;
+  height: 8px;
+  margin-top: -4px;
+  border-radius: 50%;
+  background: var(--paper);
+  border: 2px solid color-mix(in srgb, var(--ink) 35%, transparent);
+  box-sizing: border-box;
+  transition: background 160ms ease, border-color 160ms ease, transform 160ms ease;
+}
+
+.timeline .n {
+  font-size: 0.7rem;
+  color: var(--muted);
+  opacity: 0.8;
+}
+
+.timeline a:hover { color: var(--ink); }
+
+.timeline a[aria-current="true"] { color: var(--accent); }
+
+.timeline a[aria-current="true"] .tick {
+  background: var(--accent);
+  border-color: var(--accent);
+  transform: scale(1.25);
+}
+
+@media (max-width: 62em) {
+  .timeline {
+    position: static;
+    transform: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2px 14px;
+    padding: 0;
+    border-left: 0;
+    margin: 0 0 12px;
+  }
+  .timeline a { padding: 4px 0; min-width: 0; }
+  .timeline .tick { display: none; }
+}

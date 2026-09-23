@@ -118,6 +118,39 @@
     a.addEventListener('blur', hide);
   });
 
+  /* 3b. Blog index timeline: mark the year in view, decrypt each year label
+     once as it enters. */
+  var years = document.querySelectorAll('.year');
+  var ticks = document.querySelectorAll('.timeline a[data-year]');
+  if (years.length && ticks.length && 'IntersectionObserver' in window) {
+    var seen = {};
+    function setCurrent(y) {
+      Array.prototype.forEach.call(ticks, function (t) {
+        if (t.getAttribute('data-year') === y) t.setAttribute('aria-current', 'true'); else t.removeAttribute('aria-current');
+      });
+    }
+    var spy = new IntersectionObserver(function (entries) {
+      var best = null;
+      Array.prototype.forEach.call(years, function (sec) {
+        var r = sec.getBoundingClientRect();
+        if (r.top <= innerHeight * 0.35 && r.bottom > 40) best = sec;
+      });
+      if (!best) best = years[0];
+      setCurrent(best.id.slice(1));
+      entries.forEach(function (en) {
+        if (!en.isIntersecting) return;
+        var label = en.target.querySelector('.year-label');
+        if (label && !seen[en.target.id]) { seen[en.target.id] = true; decrypt(label, label.getAttribute('data-name') || label.textContent, { scramble: 250, step: 90 }); }
+      });
+    }, { rootMargin: '0px 0px -40% 0px', threshold: [0, 0.1, 0.5, 1] });
+    Array.prototype.forEach.call(years, function (s) { spy.observe(s); });
+    window.addEventListener('scroll', function () {
+      var best = years[0];
+      Array.prototype.forEach.call(years, function (sec) { if (sec.getBoundingClientRect().top <= innerHeight * 0.35) best = sec; });
+      setCurrent(best.id.slice(1));
+    }, { passive: true });
+  }
+
   /* 4. Portrait */
   var portrait = document.querySelector('.portrait');
   if (portrait) {

@@ -1,0 +1,51 @@
+# Posts that live elsewhere, listed on the blog index by date alongside the
+# Jekyll posts. `date` is a string so it compares with post dates in Liquid.
+- id: ext-2025-06-09
+  year: "2025"
+  date: "2025-06-09"
+  label: "June 9, 2025"
+  title: "Event Capture in (Collaborative) Systems: Patches and Storyboards"
+  href: "https://hamidahoderinwale.bearblog.dev/event-capture-in-collaborative-systems-diffs-and-storyboards/"
+  host: bearblog
+- id: ext-2025-02-01
+  year: "2025"
+  date: "2025-02-01"
+  label: "February 1, 2025"
+  title: "First Post of the Year"
+  href: "https://hamidahoderinwale.bearblog.dev/2025-public-notes/"
+  host: bearblog
+- id: ext-2024-11-29
+  year: "2024"
+  date: "2024-11-29"
+  label: "November 29, 2024"
+  title: "Another One [2]"
+  href: "https://hamidahoderinwale.bearblog.dev/another-one-2/"
+  host: bearblog
+- id: ext-2024-11-15
+  year: "2024"
+  date: "2024-11-15"
+  label: "November 15, 2024"
+  title: "On Knowledge Codification"
+  href: "https://hamidahoderinwale.bearblog.dev/on-knowledge-codification/"
+  host: bearblog
+- id: ext-2023-12-16
+  year: "2023"
+  date: "2023-12-16"
+  label: "December 16, 2023"
+  title: "Notes on <em>Confucius: The Secular as Sacred</em>"
+  href: "https://hackmd.io/@ecx2VlHIRJSuD55CidtDSw/S1ongx3Lp"
+  host: hackmd
+- id: ext-2023-11-15
+  year: "2023"
+  date: "2023-11-15"
+  label: "November 15, 2023"
+  title: "Metascience? (Notes)"
+  href: "https://hackmd.io/@ecx2VlHIRJSuD55CidtDSw/B19-vKMN6"
+  host: hackmd
+- id: ext-2023-06-01
+  year: "2023"
+  date: "2023-06-01"
+  label: "June 2023"
+  title: "Ramblings on the Creative Technologists"
+  href: "https://hackmd.io/@ecx2VlHIRJSuD55CidtDSw/ByZRgBtOh"
+  host: hackmd

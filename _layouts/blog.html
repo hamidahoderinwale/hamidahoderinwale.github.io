@@ -1,75 +1,61 @@
 ---
 layout: default
 ---
-<link rel="stylesheet" type="text/css" href="{{ '/blog/blog.css' | relative_url }}?v=2026-09-23b">
+<link rel="stylesheet" type="text/css" href="{{ '/blog/blog.css' | relative_url }}?v=2026-09-23c">
+
+{% comment %}
+Posts grouped by year, newest first, with the posts hosted elsewhere
+(_data/external_posts.yml) slotted in by date. The timeline in the left
+gutter lists the same years; site.js marks the year in view.
+Five early posts are kept out of the list by title, as before.
+{% endcomment %}
+{% assign hidden = "Whoosh|Spending Time|French Discomfort|Life As of Now, October 2023|Reflections in a list." | split: "|" %}
+{% assign groups = site.posts | group_by_exp: "p", "p.date | date: '%Y'" %}
+
+<nav class="timeline" aria-label="Years">
+  {% for g in groups %}
+    {% assign ext = site.data.external_posts | where: "year", g.name %}
+    {% assign n = 0 %}
+    {% for post in g.items %}{% unless hidden contains post.title %}{% assign n = n | plus: 1 %}{% endunless %}{% endfor %}
+    {% assign n = n | plus: ext.size %}
+    <a href="#y{{ g.name }}" data-year="{{ g.name }}"><span class="tick" aria-hidden="true"></span><span class="yr">{{ g.name }}</span><span class="n">{{ n }}</span></a>
+  {% endfor %}
+</nav>
 
 <div class="blog-container">
     <p><em>Before you read further, you should know that I now have <a href="https://docs.google.com/document/d/1PwKARx3qq-Pi_HCMGMVoG5mW7KBbjJmCrA2WrpqUw8w/edit?usp=sharing"> public notes</a>. Literally, no one asked for this, but I thought it would be fun(ny). They're probably going to be on a single Google Doc. I'm very open to other formats, but for now this will do. I started this today as of January 15th.</em></p>
     <p>Anyways, you've also found my blog. She's a collection of ramblings that I edit to varying degrees on an ongoing basis. Glad you're here!</p>
     <a href="{{ '/feed.xml' | relative_url }}" target="_blank" rel="noopener">RSS</a>
     <hr>
-    
+
     <div id="blog-posts-container">
-        {% comment %} Manually maintain all posts in chronological order (newest first) {% endcomment %}
-        
-        {% assign sorted_posts = site.posts | sort: 'date' | reverse %}
-        {% assign external_june_2025_shown = false %}
-        {% assign external_feb_2025_shown = false %}
-        {% assign external_nov29_2024_shown = false %}
-        {% assign external_nov15_2024_shown = false %}
-        {% assign external_dec_2023_shown = false %}
-        {% assign external_nov_2023_shown = false %}
-        {% assign external_june_2023_shown = false %}
-        
-        {% for post in sorted_posts %}
-            {% unless post.title == "Whoosh" or post.title == "Spending Time" or post.title == "French Discomfort" or post.title == "Life As of Now, October 2023" or post.title == "Reflections in a list." %}
-                {% assign post_date = post.date | date: "%Y-%m-%d" %}
-                
-                {% comment %} Insert external posts before Jekyll posts with earlier dates {% endcomment %}
-                {% if post_date < "2025-06-09" and external_june_2025_shown == false %}
-                    <p>June 9, 2025 | <a href="https://hamidahoderinwale.bearblog.dev/event-capture-in-collaborative-systems-diffs-and-storyboards/" target="_blank" rel="noopener">Event Capture in (Collaborative) Systems: Patches and Storyboards</a></p>
-                    {% assign external_june_2025_shown = true %}
+    {% for g in groups %}
+      {% assign ext = site.data.external_posts | where: "year", g.name %}
+      {% assign shown = "" %}
+      <section class="year" id="y{{ g.name }}">
+        <h2 class="year-label" data-name="{{ g.name }}">{{ g.name }}</h2>
+        {% for post in g.items %}
+          {% unless hidden contains post.title %}
+            {% assign pd = post.date | date: "%Y-%m-%d" %}
+            {% for e in ext %}
+              {% unless shown contains e.id %}
+                {% if e.date > pd %}
+                  <p>{{ e.label }} | <a href="{{ e.href }}" target="_blank" rel="noopener">{{ e.title }}</a> <span class="host">{{ e.host }}</span></p>
+                  {% assign shown = shown | append: e.id | append: "," %}
                 {% endif %}
-                
-                {% if post_date < "2025-02-01" and external_feb_2025_shown == false %}
-                    <p>February 1, 2025 | <a href="https://hamidahoderinwale.bearblog.dev/2025-public-notes/" target="_blank" rel="noopener">First Post of the Year</a></p>
-                    {% assign external_feb_2025_shown = true %}
-                {% endif %}
-                
-                {% if post_date < "2024-11-29" and external_nov29_2024_shown == false %}
-                    <p>November 29, 2024 | <a href="https://hamidahoderinwale.bearblog.dev/another-one-2/" target="_blank" rel="noopener">Another One [2]</a></p>
-                    {% assign external_nov29_2024_shown = true %}
-                {% endif %}
-                
-                {% if post_date < "2024-11-15" and external_nov15_2024_shown == false %}
-                    <p>November 15, 2024 | <a href="https://hamidahoderinwale.bearblog.dev/on-knowledge-codification/" target="_blank" rel="noopener">On Knowledge Codification</a></p>
-                    {% assign external_nov15_2024_shown = true %}
-                {% endif %}
-                
-                {% if post_date < "2023-12-16" and external_dec_2023_shown == false %}
-                    <p>December 16, 2023 | <a href="https://hackmd.io/@ecx2VlHIRJSuD55CidtDSw/S1ongx3Lp">Notes on <em>Confucius: The Secular as Sacred</em></a></p>
-                    {% assign external_dec_2023_shown = true %}
-                {% endif %}
-                
-                {% if post_date < "2023-11-15" and external_nov_2023_shown == false %}
-                    <p>November 15, 2023 | <a href="https://hackmd.io/@ecx2VlHIRJSuD55CidtDSw/B19-vKMN6" target="_blank" rel="noopener">Metascience? (Notes)</a></p>
-                    {% assign external_nov_2023_shown = true %}
-                {% endif %}
-                
-                {% if post_date < "2023-06-01" and external_june_2023_shown == false %}
-                    <p>June 2023 | <a href="https://hackmd.io/@ecx2VlHIRJSuD55CidtDSw/ByZRgBtOh" target="_blank" rel="noopener">Ramblings on the Creative Technologists</a></p>
-                    {% assign external_june_2023_shown = true %}
-                {% endif %}
-                
-                {% comment %} A post may set `link:` in front matter to point the list entry at an external/standalone page instead of its own post page. {% endcomment %}
-                {% if post.link %}{% assign post_href = post.link | relative_url %}{% else %}{% assign post_href = post.url | relative_url %}{% endif %}
-                <p>{{ post.date | date: "%B %d, %Y" }} | <a href="{{ post_href }}">{{ post.title }}</a></p>
-            {% endunless %}
+              {% endunless %}
+            {% endfor %}
+            {% if post.link %}{% assign post_href = post.link | relative_url %}{% else %}{% assign post_href = post.url | relative_url %}{% endif %}
+            <p>{{ post.date | date: "%B %d, %Y" }} | <a href="{{ post_href }}">{{ post.title }}</a></p>
+          {% endunless %}
         {% endfor %}
-        
-        {% comment %} Show any remaining external posts that are older than all Jekyll posts {% endcomment %}
-        {% if external_june_2023_shown == false %}
-            <p>June 2023 | <a href="https://hackmd.io/@ecx2VlHIRJSuD55CidtDSw/ByZRgBtOh" target="_blank" rel="noopener">Ramblings on the Creative Technologists</a></p>
-        {% endif %}
+        {% for e in ext %}
+          {% unless shown contains e.id %}
+            <p>{{ e.label }} | <a href="{{ e.href }}" target="_blank" rel="noopener">{{ e.title }}</a> <span class="host">{{ e.host }}</span></p>
+            {% assign shown = shown | append: e.id | append: "," %}
+          {% endunless %}
+        {% endfor %}
+      </section>
+    {% endfor %}
     </div>
 </div>
