@@ -304,7 +304,7 @@ a:focus-visible {
     }
 }
 
-@media (min-width: 62em) {
+@media (min-width: 62.01em) {
     body {
         --rail-shift: 72px;
         margin-left: calc(50% - var(--card) / 2 - var(--rail-shift));

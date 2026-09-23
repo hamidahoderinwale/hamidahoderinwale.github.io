@@ -105,7 +105,8 @@ article iframe {
   transform: scale(1.25);
 }
 
-@media (max-width: 62em) {
+/* Below 70em the left gutter is under 60px, so the timeline goes inline. */
+@media (max-width: 70em) {
   .timeline {
     position: static;
     transform: none;
