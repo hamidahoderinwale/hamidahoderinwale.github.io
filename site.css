@@ -125,6 +125,26 @@ a:focus-visible {
     place-items: center;
 }
 
+/* Accent wash over the cover at rest (the look of a selected image), lifted
+   on hover, focus or tap along with the photo reveal. */
+.portrait::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: var(--accent);
+    opacity: 0.45;
+    mix-blend-mode: multiply;
+    pointer-events: none;
+    transition: opacity 260ms ease;
+    z-index: 2;
+}
+
+.portrait:hover::after,
+.portrait:focus-visible::after,
+.portrait.show::after {
+    opacity: 0;
+}
+
 .portrait img {
     position: absolute;
     inset: 0;
@@ -139,6 +159,7 @@ a:focus-visible {
 .portrait-face {
     opacity: 0;
     transition: opacity 260ms ease;
+    z-index: 1;
 }
 
 .portrait:hover .portrait-face,
@@ -214,9 +235,9 @@ a:focus-visible {
     animation: settle 200ms cubic-bezier(.2,.8,.2,1) both;
 }
 
-/* Thumbnail tooltip for the procgrep item: a small capture of the page,
-   shown beneath the rail column on hover or focus (there is always room
-   there, unlike to the right on a laptop screen). */
+/* Thumbnail tooltips: a small capture of each destination, shown beneath
+   the rail column on hover or focus (there is always room there, unlike to
+   the right on a laptop screen). Captures live in thumbs/. */
 .rail .thumb {
     position: absolute;
     left: 0;
@@ -238,8 +259,8 @@ a:focus-visible {
     height: auto;
 }
 
-.rail a.has-thumb:hover .thumb,
-.rail a.has-thumb:focus-visible .thumb {
+.rail a:hover .thumb,
+.rail a:focus-visible .thumb {
     opacity: 1;
     visibility: visible;
     transform: translateY(0) scale(1);
