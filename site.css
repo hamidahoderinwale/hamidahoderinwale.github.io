@@ -13,6 +13,7 @@
     --accent: #2563eb;      /* selection, progress, name; white on it is 5.2:1 */
     --on-accent: #fff;
     --muted: #6b6c75;       /* 5.0:1 on paper */
+    --card: min(66ch, 100vw - 20px);   /* card width; blog.css narrows it */
     color-scheme: light dark;
 }
 
@@ -61,7 +62,7 @@ body {
     line-height: 1.5;
     color: var(--ink);
     background-color: var(--paper);
-    max-width: min(66ch, 100% - 20px);
+    max-width: var(--card);
     margin: clamp(10px, 3vh, 28px) auto;
     --rail-shift: 0px;
     padding: clamp(20px, 4vw, 40px);
@@ -207,7 +208,7 @@ a:focus-visible {
 .rail {
     position: fixed;
     top: calc(clamp(10px, 3vh, 28px) + clamp(20px, 4vw, 40px));
-    left: calc(50% + min(66ch, 100vw - 20px) / 2 + 18px - var(--rail-shift, 0px));
+    left: calc(50% + var(--card) / 2 + 18px - var(--rail-shift, 0px));
     display: flex;
     flex-direction: column;
     gap: 6px;
@@ -306,7 +307,7 @@ a:focus-visible {
 @media (min-width: 62em) {
     body {
         --rail-shift: 72px;
-        margin-left: calc(50% - min(66ch, 100vw - 20px) / 2 - var(--rail-shift));
+        margin-left: calc(50% - var(--card) / 2 - var(--rail-shift));
     }
 }
 
