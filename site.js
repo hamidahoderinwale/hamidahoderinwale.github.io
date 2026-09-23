@@ -9,7 +9,7 @@
       letters are plain and the rest encrypted; hover or focus decrypts it.
    4. Portrait: the reveal alternates between photos on each hover; tap
       toggles it on touch screens, where there is no hover.
-   5. Mail: the address is assembled here so the raw mailto is not in the HTML. */
+   5. Mail: the address is assembled here so it appears nowhere in the HTML. */
 (function () {
   var reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   var alphabet = 'abcdefghijklmnopqrstuvwxyz';
@@ -147,7 +147,6 @@
   /* 5. Mail */
   Array.prototype.forEach.call(document.querySelectorAll('a[data-user][data-domain]'), function (a) {
     var addr = a.getAttribute('data-user') + '@' + a.getAttribute('data-domain');
-    a.href = 'mailto:' + addr;
-    a.textContent = addr;
+    a.href = 'mailto:' + addr;   /* the link text stays as written; the address is only in the target */
   });
 })();
