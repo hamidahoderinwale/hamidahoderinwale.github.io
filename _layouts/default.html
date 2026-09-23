@@ -3,25 +3,34 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="{{ '/site.css' | relative_url }}">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://platform.twitter.com; style-src 'self' https://fonts.googleapis.com 'unsafe-inline'; font-src https://fonts.gstatic.com; img-src 'self' https: data:; connect-src 'none'; frame-src https://open.spotify.com https://platform.twitter.com https://www.youtube.com https://www.youtube-nocookie.com; object-src 'none'; base-uri 'self'; form-action 'none'; upgrade-insecure-requests">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Yarndings+12&display=swap">
+    <link rel="stylesheet" type="text/css" href="{{ '/site.css' | relative_url }}?v=2026-09-23">
     <link rel="shortcut icon" type="image/png" href="{{ '/android-chrome-512x512.png' | relative_url }}"/>
     <link rel="alternate" type="application/rss+xml" title="Hamidah's Blog RSS Feed" href="{{ '/feed.xml' | relative_url }}">
     <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
 </head>
 <body>
-    <nav>
-        <a href="{{ '/' | relative_url }}">Home</a> | 
-        <a href="{{ '/blog/blog.html' | relative_url }}">Posts</a> | 
-        <a href="{{ '/blog/readme.html' | relative_url }}">Read Me</a> | 
-        <a href="{{ '/procgrep/' | relative_url }}">procgrep</a> |
-        <a href="{{ '/blog/more.html' | relative_url }}">More</a> | 
-        <a href="https://substack.com/@hamidahoderinwale" target="_blank">Substack</a> | 
-        <a href="https://curius.app/hamidah-oderinwale" target="_blank">Curius</a> | 
-        <a href="https://github.com/hamidahoderinwale" target="_blank">GitHub</a> | 
-        <a href="https://twitter.com/didaoh" target="_blank">Twitter</a>
+    <nav class="top" aria-label="Site">
+      <a href="{{ '/' | relative_url }}">Home</a>
+      <a href="{{ '/blog/blog.html' | relative_url }}"{% if page.url == '/blog/blog.html' or page.layout == 'post' %} aria-current="page"{% endif %}>Posts</a>
+      <a href="{{ '/blog/readme.html' | relative_url }}">Read Me</a>
+      <a href="{{ '/blog/more.html' | relative_url }}">More</a>
+    </nav>
+    <nav class="rail" aria-label="Elsewhere">
+      <a href="{{ '/procgrep/' | relative_url }}" data-label="procgrep" aria-label="procgrep" title="procgrep" class="has-thumb"><span class="glyph" aria-hidden="true">n</span><span class="label"></span><span class="thumb" aria-hidden="true"><img src="{{ '/procgrep-thumb.jpg' | relative_url }}" alt="" loading="lazy" width="320" height="200"></span></a>
+      <a href="https://substack.com/@hamidahoderinwale" target="_blank" rel="noopener" data-label="Substack" aria-label="Substack" title="Substack"><span class="glyph" aria-hidden="true">f</span><span class="label"></span></a>
+      <a href="https://curius.app/hamidah-oderinwale" target="_blank" rel="noopener" data-label="Curius" aria-label="Curius" title="Curius"><span class="glyph" aria-hidden="true">y</span><span class="label"></span></a>
+      <a href="https://github.com/hamidahoderinwale" target="_blank" rel="noopener" data-label="GitHub" aria-label="GitHub" title="GitHub"><span class="glyph" aria-hidden="true">x</span><span class="label"></span></a>
+      <a href="https://twitter.com/didaoh" target="_blank" rel="noopener" data-label="Twitter" aria-label="Twitter" title="Twitter"><span class="glyph" aria-hidden="true">L</span><span class="label"></span></a>
+      <a href="https://scholar.google.com/citations?user=Q1pTD-wAAAAJ" target="_blank" rel="noopener" data-label="Scholar" aria-label="Google Scholar" title="Google Scholar"><span class="glyph" aria-hidden="true">6</span><span class="label"></span></a>
     </nav>
     
     {{ content }}
+    <script src="{{ '/site.js' | relative_url }}?v=2026-09-23"></script>
 </body>
 </html>
 
