@@ -6,3 +6,4 @@ Gemfile.lock
 
 # local preview scratch
 .preview-post.html
+.preview-blog.html
