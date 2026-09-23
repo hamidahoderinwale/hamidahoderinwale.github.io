@@ -39,6 +39,21 @@ html {
     html { scroll-behavior: smooth; }
 }
 
+/* Cursor: the Yarndings leaf, ink at rest and accent over anything
+   clickable. Hotspot at the glyph's centre. Fine pointers only. */
+@media (pointer: fine) {
+    html {
+        cursor: url(cursor-leaf.png) 14 14, auto;
+        cursor: -webkit-image-set(url(cursor-leaf.png) 1x, url(cursor-leaf@2x.png) 2x) 14 14, auto;
+        cursor: image-set(url(cursor-leaf.png) 1x, url(cursor-leaf@2x.png) 2x) 14 14, auto;
+    }
+    a, button, .portrait, [role="button"] {
+        cursor: url(cursor-leaf-accent.png) 14 14, pointer;
+        cursor: -webkit-image-set(url(cursor-leaf-accent.png) 1x, url(cursor-leaf-accent@2x.png) 2x) 14 14, pointer;
+        cursor: image-set(url(cursor-leaf-accent.png) 1x, url(cursor-leaf-accent@2x.png) 2x) 14 14, pointer;
+    }
+}
+
 body {
     box-sizing: border-box;
     font-family: var(--font-sans);
@@ -61,14 +76,10 @@ body {
     color: var(--on-accent);
 }
 
-/* Asides set in the highlight state by default, as if already selected. */
+/* Asides: italic in the accent colour, no background. */
 .aside {
-    background: var(--accent);
-    color: var(--on-accent);
+    color: var(--accent);
     font-style: italic;
-    padding: 0.05em 0.3em;
-    box-decoration-break: clone;
-    -webkit-box-decoration-break: clone;
 }
 
 .light {
@@ -97,15 +108,15 @@ a:focus-visible {
     border-radius: 2px;
 }
 
-/* Portrait. A cover image (cover.jpg, yours to supply) sits on top; the
-   photo shows on hover, keyboard focus, or a tap. Until cover.jpg exists,
-   the cover is a tile with a Yarndings glyph so nothing looks broken. */
+/* Portrait. The cover (cover.jpg) sits on top under an accent wash; the
+   photo shows on hover, keyboard focus, or a tap. If the cover is missing
+   the tile shows a Yarndings glyph so nothing looks broken. */
 .portrait {
     position: relative;
     float: left;
-    width: 132px;
-    aspect-ratio: 3 / 4;
-    margin: 0.25em 1em 0.5em 0;
+    width: 160px;
+    aspect-ratio: 1 / 1;
+    margin: 0.25em 1.1em 0.6em 0;
     border: 2px solid var(--ink);
     box-sizing: border-box;
     overflow: hidden;
@@ -132,8 +143,7 @@ a:focus-visible {
     position: absolute;
     inset: 0;
     background: var(--accent);
-    opacity: 0.45;
-    mix-blend-mode: multiply;
+    opacity: 0.5;
     pointer-events: none;
     transition: opacity 260ms ease;
     z-index: 2;
