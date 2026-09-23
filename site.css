@@ -110,7 +110,7 @@ a:focus-visible {
 }
 
 /* Portrait. The cover (cover.jpg) sits on top under an accent wash; the
-   photo shows on hover, keyboard focus, or a tap. If the cover is missing
+   photos alternate on each hover, keyboard focus, or tap. If the cover is missing
    the tile shows a Yarndings glyph so nothing looks broken. */
 .portrait {
     position: relative;
@@ -177,9 +177,9 @@ a:focus-visible {
     background: var(--paper);
 }
 
-.portrait:hover .portrait-face,
-.portrait:focus-visible .portrait-face,
-.portrait.show .portrait-face {
+.portrait:hover .portrait-face.is-current,
+.portrait:focus-visible .portrait-face.is-current,
+.portrait.show .portrait-face.is-current {
     opacity: 1;
 }
 

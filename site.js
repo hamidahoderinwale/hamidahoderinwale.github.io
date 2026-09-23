@@ -7,7 +7,8 @@
       welcome line and on the rail labels when hovered.
    3. Rail: the icon links beside the card carry a label whose first two
       letters are plain and the rest encrypted; hover or focus decrypts it.
-   4. Portrait: tap toggles the photo on touch screens, where there is no hover.
+   4. Portrait: the reveal alternates between photos on each hover; tap
+      toggles it on touch screens, where there is no hover.
    5. Mail: the address is assembled here so the raw mailto is not in the HTML. */
 (function () {
   var reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -126,7 +127,21 @@
       if (cover.complete && cover.naturalWidth === 0) dropCover();
       cover.addEventListener('error', dropCover);
     }
-    portrait.addEventListener('click', function () { portrait.classList.toggle('show'); });
+    /* Reveal photos alternate: each hover, focus or tap advances to the next. */
+    var faces = portrait.querySelectorAll('.portrait-face');
+    var face = 0;
+    function advance() {
+      if (faces.length < 2) return;
+      faces[face].classList.remove('is-current');
+      face = (face + 1) % faces.length;
+      faces[face].classList.add('is-current');
+    }
+    portrait.addEventListener('mouseleave', advance);
+    portrait.addEventListener('blur', advance);
+    portrait.addEventListener('click', function () {
+      if (portrait.classList.contains('show')) { portrait.classList.remove('show'); advance(); }
+      else portrait.classList.add('show');
+    });
   }
 
   /* 5. Mail */
