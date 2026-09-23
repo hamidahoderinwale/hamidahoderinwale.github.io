@@ -43,10 +43,13 @@ article iframe {
 
 .year-label .cipher { font-family: var(--font-cipher); opacity: 0.6; }
 
+/* External posts carry a north-east arrow after the title; the host is
+   in the hover title. */
 .host {
-  font-size: 0.8em;
+  font-size: 0.85em;
   color: var(--muted);
-  margin-left: 0.25em;
+  margin-left: 0.15em;
+  text-decoration: none;
 }
 
 .timeline {

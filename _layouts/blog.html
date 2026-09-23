@@ -40,7 +40,7 @@ Five early posts are kept out of the list by title, as before.
             {% for e in ext %}
               {% unless shown contains e.id %}
                 {% if e.date > pd %}
-                  <p>{{ e.label }} | <a href="{{ e.href }}" target="_blank" rel="noopener">{{ e.title }}</a> <span class="host">{{ e.host }}</span></p>
+                  <p>{{ e.label }} | <a href="{{ e.href }}" target="_blank" rel="noopener">{{ e.title }}</a> <span class="host" title="on {{ e.host }}" aria-label="on {{ e.host }}">&#8599;</span></p>
                   {% assign shown = shown | append: e.id | append: "," %}
                 {% endif %}
               {% endunless %}
@@ -51,7 +51,7 @@ Five early posts are kept out of the list by title, as before.
         {% endfor %}
         {% for e in ext %}
           {% unless shown contains e.id %}
-            <p>{{ e.label }} | <a href="{{ e.href }}" target="_blank" rel="noopener">{{ e.title }}</a> <span class="host">{{ e.host }}</span></p>
+            <p>{{ e.label }} | <a href="{{ e.href }}" target="_blank" rel="noopener">{{ e.title }}</a> <span class="host" title="on {{ e.host }}" aria-label="on {{ e.host }}">&#8599;</span></p>
             {% assign shown = shown | append: e.id | append: "," %}
           {% endunless %}
         {% endfor %}
