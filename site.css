@@ -177,6 +177,12 @@ a:focus-visible {
     background: var(--paper);
 }
 
+/* A tall photo fills the inset square from its top instead of shrinking. */
+.portrait-face.crop-top {
+    object-fit: cover;
+    object-position: 50% 10%;
+}
+
 .portrait:hover .portrait-face.is-current,
 .portrait:focus-visible .portrait-face.is-current,
 .portrait.show .portrait-face.is-current {
