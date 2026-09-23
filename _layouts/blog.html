@@ -1,12 +1,12 @@
 ---
 layout: default
 ---
-<link rel="stylesheet" type="text/css" href="{{ '/blog/blog.css' | relative_url }}">
+<link rel="stylesheet" type="text/css" href="{{ '/blog/blog.css' | relative_url }}?v=2026-09-23">
 
 <div class="blog-container">
     <p><em>Before you read further, you should know that I now have <a href="https://docs.google.com/document/d/1PwKARx3qq-Pi_HCMGMVoG5mW7KBbjJmCrA2WrpqUw8w/edit?usp=sharing"> public notes</a>. Literally, no one asked for this, but I thought it would be fun(ny). They're probably going to be on a single Google Doc. I'm very open to other formats, but for now this will do. I started this today as of January 15th.</em></p>
     <p>Anyways, you've also found my blog. She's a collection of ramblings that I edit to varying degrees on an ongoing basis. Glad you're here!</p>
-    <a href="{{ '/feed.xml' | relative_url }}" target="_blank">RSS</a>
+    <a href="{{ '/feed.xml' | relative_url }}" target="_blank" rel="noopener">RSS</a>
     <hr>
     
     <div id="blog-posts-container">
@@ -27,22 +27,22 @@ layout: default
                 
                 {% comment %} Insert external posts before Jekyll posts with earlier dates {% endcomment %}
                 {% if post_date < "2025-06-09" and external_june_2025_shown == false %}
-                    <p>June 9, 2025 | <a href="https://hamidahoderinwale.bearblog.dev/event-capture-in-collaborative-systems-diffs-and-storyboards/" target="_blank">Event Capture in (Collaborative) Systems: Patches and Storyboards</a></p>
+                    <p>June 9, 2025 | <a href="https://hamidahoderinwale.bearblog.dev/event-capture-in-collaborative-systems-diffs-and-storyboards/" target="_blank" rel="noopener">Event Capture in (Collaborative) Systems: Patches and Storyboards</a></p>
                     {% assign external_june_2025_shown = true %}
                 {% endif %}
                 
                 {% if post_date < "2025-02-01" and external_feb_2025_shown == false %}
-                    <p>February 1, 2025 | <a href="https://hamidahoderinwale.bearblog.dev/2025-public-notes/" target="_blank">First Post of the Year</a></p>
+                    <p>February 1, 2025 | <a href="https://hamidahoderinwale.bearblog.dev/2025-public-notes/" target="_blank" rel="noopener">First Post of the Year</a></p>
                     {% assign external_feb_2025_shown = true %}
                 {% endif %}
                 
                 {% if post_date < "2024-11-29" and external_nov29_2024_shown == false %}
-                    <p>November 29, 2024 | <a href="https://hamidahoderinwale.bearblog.dev/another-one-2/" target="_blank">Another One [2]</a></p>
+                    <p>November 29, 2024 | <a href="https://hamidahoderinwale.bearblog.dev/another-one-2/" target="_blank" rel="noopener">Another One [2]</a></p>
                     {% assign external_nov29_2024_shown = true %}
                 {% endif %}
                 
                 {% if post_date < "2024-11-15" and external_nov15_2024_shown == false %}
-                    <p>November 15, 2024 | <a href="https://hamidahoderinwale.bearblog.dev/on-knowledge-codification/" target="_blank">On Knowledge Codification</a></p>
+                    <p>November 15, 2024 | <a href="https://hamidahoderinwale.bearblog.dev/on-knowledge-codification/" target="_blank" rel="noopener">On Knowledge Codification</a></p>
                     {% assign external_nov15_2024_shown = true %}
                 {% endif %}
                 
@@ -52,12 +52,12 @@ layout: default
                 {% endif %}
                 
                 {% if post_date < "2023-11-15" and external_nov_2023_shown == false %}
-                    <p>November 15, 2023 | <a href="https://hackmd.io/@ecx2VlHIRJSuD55CidtDSw/B19-vKMN6" target="_blank">Metascience? (Notes)</a></p>
+                    <p>November 15, 2023 | <a href="https://hackmd.io/@ecx2VlHIRJSuD55CidtDSw/B19-vKMN6" target="_blank" rel="noopener">Metascience? (Notes)</a></p>
                     {% assign external_nov_2023_shown = true %}
                 {% endif %}
                 
                 {% if post_date < "2023-06-01" and external_june_2023_shown == false %}
-                    <p>June 2023 | <a href="https://hackmd.io/@ecx2VlHIRJSuD55CidtDSw/ByZRgBtOh" target="_blank">Ramblings on the Creative Technologists</a></p>
+                    <p>June 2023 | <a href="https://hackmd.io/@ecx2VlHIRJSuD55CidtDSw/ByZRgBtOh" target="_blank" rel="noopener">Ramblings on the Creative Technologists</a></p>
                     {% assign external_june_2023_shown = true %}
                 {% endif %}
                 
@@ -69,7 +69,7 @@ layout: default
         
         {% comment %} Show any remaining external posts that are older than all Jekyll posts {% endcomment %}
         {% if external_june_2023_shown == false %}
-            <p>June 2023 | <a href="https://hackmd.io/@ecx2VlHIRJSuD55CidtDSw/ByZRgBtOh" target="_blank">Ramblings on the Creative Technologists</a></p>
+            <p>June 2023 | <a href="https://hackmd.io/@ecx2VlHIRJSuD55CidtDSw/ByZRgBtOh" target="_blank" rel="noopener">Ramblings on the Creative Technologists</a></p>
         {% endif %}
     </div>
 </div>

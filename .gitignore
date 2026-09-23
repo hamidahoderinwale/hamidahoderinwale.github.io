@@ -3,3 +3,6 @@ vendor/
 .bundle/
 .DS_Store
 Gemfile.lock
+
+# local preview scratch
+.preview-post.html
