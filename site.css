@@ -5,13 +5,13 @@
 :root {
     --font-sans: 'Instrument Sans', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
     --font-cipher: 'Yarndings 12', var(--font-sans);
-    --ink: #000;
+    --ink: #1c1c1e;         /* near-black; no pure black anywhere */
     --paper: #F6F5F4;
     --frame: #e7e6e3;
     --link: #4f505a;
     --link-hover: #520012;
-    --accent: #2563eb;      /* selection, progress, name; white on it is 5.2:1 */
-    --on-accent: #fff;
+    --accent: #2563eb;      /* selection, progress, name; paper on it is 5.1:1 */
+    --on-accent: #f6f5f4;   /* paper, not pure white */
     --muted: #6b6c75;       /* 5.0:1 on paper */
     --card: min(66ch, 100vw - 20px);   /* card width; blog.css narrows it */
     --mat: #F6F5F4;         /* mat behind the reveal photos, the same in both modes */
