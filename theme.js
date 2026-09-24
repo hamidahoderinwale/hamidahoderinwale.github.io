@@ -1,6 +1,6 @@
 /* Applies a remembered colour scheme before first paint so there is no
    flash. Loaded synchronously in the head. Without a stored choice the page
-   follows the system setting. */
+   is light, whatever the system setting. */
 (function () {
   try {
     var t = localStorage.getItem('theme');

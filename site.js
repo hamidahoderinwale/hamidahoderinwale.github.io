@@ -1,5 +1,5 @@
 /* hamidah.me — small behaviours, no dependencies.
-   0. Colour scheme toggle in the nav.
+   0. Colour scheme toggle in the nav; light is the default, dark only by choice.
    1. Reading progress: a bar at the top of the viewport scaled to how far
       the reader has scrolled (same idea as the procgrep page).
    2. Decrypt: an element marked .decrypt starts as yarn glyphs (Yarndings 12
@@ -19,11 +19,7 @@
 
   /* 0. Colour scheme toggle, showing the scheme it switches to: half moon
      in light mode, sun in dark. The choice is stored per browser. */
-  function isDark() {
-    var t = document.documentElement.getAttribute('data-theme');
-    if (t) return t === 'dark';
-    return window.matchMedia('(prefers-color-scheme: dark)').matches;
-  }
+  function isDark() { return document.documentElement.getAttribute('data-theme') === 'dark'; }
   var themeBtn = document.querySelector('.theme');
   function paintTheme() {
     if (!themeBtn) return;
@@ -64,7 +60,6 @@
       paintTheme();
       document.dispatchEvent(new Event('themechange'));
     });
-    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function () { paintTheme(); document.dispatchEvent(new Event('themechange')); });
   }
 
   /* 1. Progress bar */

@@ -15,25 +15,12 @@
     --muted: #6b6c75;       /* 5.0:1 on paper */
     --card: min(66ch, 100vw - 20px);   /* card width; blog.css narrows it */
     --mat: #F6F5F4;         /* mat behind the reveal photos, the same in both modes */
-    color-scheme: light dark;
+    color-scheme: light;
 }
 
-/* Dark scheme: from the system setting unless the toggle has chosen, or
-   from the toggle (data-theme on <html>, remembered in localStorage). */
-@media (prefers-color-scheme: dark) {
-    :root:not([data-theme="light"]) {
-        --ink: #ececea;
-        --paper: #1f1f22;
-        --frame: #141416;
-        --link: #b9bac4;
-        --link-hover: #f2b8c6;
-        --accent: #7aa2ff;  /* near-black on it is 9:1 */
-        --on-accent: #0f1115;
-        --muted: #9a9ba4;
-        color-scheme: dark;
-    }
-}
-
+/* Dark scheme only when the toggle chooses it (data-theme on <html>,
+   remembered in localStorage). The default is light regardless of the
+   system setting. */
 :root[data-theme="dark"] {
     --ink: #ececea;
     --paper: #1f1f22;
@@ -86,18 +73,6 @@ html {
     }
 }
 
-@media (pointer: fine) and (prefers-color-scheme: dark) {
-    :root:not([data-theme="light"]) {
-        cursor: url(cursor-leaf-dark.png) 14 14, auto;
-        cursor: -webkit-image-set(url(cursor-leaf-dark.png) 1x, url(cursor-leaf-dark@2x.png) 2x) 14 14, auto;
-        cursor: image-set(url(cursor-leaf-dark.png) 1x, url(cursor-leaf-dark@2x.png) 2x) 14 14, auto;
-    }
-    :root:not([data-theme="light"]) a, :root:not([data-theme="light"]) button, :root:not([data-theme="light"]) .portrait, :root:not([data-theme="light"]) [role="button"] {
-        cursor: url(cursor-leaf-dark-accent.png) 14 14, pointer;
-        cursor: -webkit-image-set(url(cursor-leaf-dark-accent.png) 1x, url(cursor-leaf-dark-accent@2x.png) 2x) 14 14, pointer;
-        cursor: image-set(url(cursor-leaf-dark-accent.png) 1x, url(cursor-leaf-dark-accent@2x.png) 2x) 14 14, pointer;
-    }
-}
 
 body {
     box-sizing: border-box;
