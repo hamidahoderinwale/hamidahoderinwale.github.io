@@ -366,7 +366,7 @@ nav.top .theme {
     line-height: 0;
 }
 
-nav.top .theme svg { width: 20px; height: 20px; display: none; }
+nav.top .theme svg { width: 22px; height: 22px; display: none; }
 nav.top .theme .moon { display: block; }          /* light mode offers dark */
 nav.top .theme.is-dark .moon { display: none; }
 nav.top .theme.is-dark .sun { display: block; }    /* dark mode offers light */
