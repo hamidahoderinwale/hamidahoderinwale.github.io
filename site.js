@@ -202,7 +202,7 @@
       canvas.width = Math.floor(W * dpr); canvas.height = Math.floor(H * dpr);
       cols = Math.ceil(W / CELL); rows = Math.ceil(H / CELL);
       grid = new Uint8Array(cols * rows); next = new Uint8Array(cols * rows); bright = new Float32Array(cols * rows);
-      for (var i = 0; i < grid.length; i++) grid[i] = Math.random() < 0.12 ? 1 : 0;
+      for (var i = 0; i < grid.length; i++) grid[i] = Math.random() < 0.22 ? 1 : 0;
     }
     function step() {
       for (var y = 0; y < rows; y++) for (var x = 0; x < cols; x++) {
@@ -213,7 +213,7 @@
         }
         var i = y * cols + x;
         var alive = (grid[i] && (n === 2 || n === 3)) || (!grid[i] && n === 3) ? 1 : 0;
-        if (alive && grid[i] && Math.random() < 0.005) alive = 0;   /* slow extinction */
+        if (alive && grid[i] && Math.random() < 0.003) alive = 0;   /* slow extinction */
         next[i] = alive;
       }
       var t = grid; grid = next; next = t;
