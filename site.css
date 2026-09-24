@@ -353,8 +353,8 @@ nav.top a:hover {
     text-decoration: underline;
 }
 
-/* Colour scheme toggle at the right end of the nav: a pixel sun in light
-   mode, a half moon in dark. */
+/* Colour scheme toggle at the right end of the nav, showing the scheme it
+   switches to: a half moon in light mode, a pixel sun in dark. */
 nav.top .theme {
     margin-left: auto;
     color: var(--muted);
@@ -367,9 +367,9 @@ nav.top .theme {
 }
 
 nav.top .theme svg { width: 20px; height: 20px; display: none; }
-nav.top .theme .sun { display: block; }
-nav.top .theme.is-dark .sun { display: none; }
-nav.top .theme.is-dark .moon { display: block; }
+nav.top .theme .moon { display: block; }          /* light mode offers dark */
+nav.top .theme.is-dark .moon { display: none; }
+nav.top .theme.is-dark .sun { display: block; }    /* dark mode offers light */
 
 nav.top .theme:hover { color: var(--accent); }
 

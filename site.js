@@ -17,8 +17,8 @@
   var alphabet = 'abcdefghijklmnopqrstuvwxyz';
   function rand() { return alphabet[Math.floor(Math.random() * alphabet.length)]; }
 
-  /* 0. Colour scheme toggle: sun in light mode, half moon in dark. The
-     choice is stored per browser. */
+  /* 0. Colour scheme toggle, showing the scheme it switches to: half moon
+     in light mode, sun in dark. The choice is stored per browser. */
   function isDark() {
     var t = document.documentElement.getAttribute('data-theme');
     if (t) return t === 'dark';
