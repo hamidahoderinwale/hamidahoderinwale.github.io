@@ -33,9 +33,31 @@
     themeBtn.setAttribute('title', dark ? 'Light mode' : 'Dark mode');
     themeBtn.setAttribute('aria-pressed', dark ? 'true' : 'false');
   }
+  /* A soft click on toggle: a short filtered noise burst, synthesised so no
+     file is fetched. Runs inside the click, which satisfies autoplay rules. */
+  var audio = null;
+  function click() {
+    try {
+      var AC = window.AudioContext || window.webkitAudioContext;
+      if (!AC) return;
+      audio = audio || new AC();
+      if (audio.state === 'suspended') audio.resume();
+      var t = audio.currentTime;
+      var len = Math.floor(audio.sampleRate * 0.012);
+      var buf = audio.createBuffer(1, len, audio.sampleRate);
+      var d = buf.getChannelData(0);
+      for (var i = 0; i < len; i++) d[i] = (Math.random() * 2 - 1) * Math.pow(1 - i / len, 3);
+      var src = audio.createBufferSource(); src.buffer = buf;
+      var filt = audio.createBiquadFilter(); filt.type = 'bandpass'; filt.frequency.value = 2600; filt.Q.value = 1.2;
+      var gain = audio.createGain(); gain.gain.setValueAtTime(0.18, t); gain.gain.exponentialRampToValueAtTime(0.001, t + 0.03);
+      src.connect(filt); filt.connect(gain); gain.connect(audio.destination);
+      src.start(t); src.stop(t + 0.03);
+    } catch (e) {}
+  }
   if (themeBtn) {
     paintTheme();
     themeBtn.addEventListener('click', function () {
+      click();
       var next = isDark() ? 'light' : 'dark';
       document.documentElement.setAttribute('data-theme', next);
       try { localStorage.setItem('theme', next); } catch (e) {}
