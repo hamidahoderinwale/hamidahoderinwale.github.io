@@ -14,11 +14,14 @@
     --on-accent: #fff;
     --muted: #6b6c75;       /* 5.0:1 on paper */
     --card: min(66ch, 100vw - 20px);   /* card width; blog.css narrows it */
+    --mat: #F6F5F4;         /* mat behind the reveal photos, the same in both modes */
     color-scheme: light dark;
 }
 
+/* Dark scheme: from the system setting unless the toggle has chosen, or
+   from the toggle (data-theme on <html>, remembered in localStorage). */
 @media (prefers-color-scheme: dark) {
-    :root {
+    :root:not([data-theme="light"]) {
         --ink: #ececea;
         --paper: #1f1f22;
         --frame: #141416;
@@ -27,7 +30,24 @@
         --accent: #7aa2ff;  /* near-black on it is 9:1 */
         --on-accent: #0f1115;
         --muted: #9a9ba4;
+        color-scheme: dark;
     }
+}
+
+:root[data-theme="dark"] {
+    --ink: #ececea;
+    --paper: #1f1f22;
+    --frame: #141416;
+    --link: #b9bac4;
+    --link-hover: #f2b8c6;
+    --accent: #7aa2ff;  /* near-black on it is 9:1 */
+    --on-accent: #0f1115;
+    --muted: #9a9ba4;
+    color-scheme: dark;
+}
+
+:root[data-theme="light"] {
+    color-scheme: light;
 }
 
 html {
@@ -175,7 +195,7 @@ a:focus-visible {
     object-fit: contain;      /* whole photo, no crop, inset from the frame */
     padding: 12px;
     box-sizing: border-box;
-    background: var(--paper);
+    background: var(--mat);
 }
 
 /* A tall photo fills the inset square from its top instead of shrinking. */
@@ -331,6 +351,32 @@ nav.top a {
 nav.top a:hover {
     color: var(--link-hover);
     text-decoration: underline;
+}
+
+/* Colour scheme toggle at the right end of the nav: a pixel sun in light
+   mode, a half moon in dark. */
+nav.top .theme {
+    margin-left: auto;
+    color: var(--muted);
+    background: none;
+    border: 0;
+    padding: 6px 4px;
+    cursor: pointer;
+    align-self: center;
+    line-height: 0;
+}
+
+nav.top .theme svg { width: 20px; height: 20px; display: none; }
+nav.top .theme .sun { display: block; }
+nav.top .theme.is-dark .sun { display: none; }
+nav.top .theme.is-dark .moon { display: block; }
+
+nav.top .theme:hover { color: var(--accent); }
+
+nav.top .theme:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+    border-radius: 2px;
 }
 
 nav.top a[aria-current="page"] {

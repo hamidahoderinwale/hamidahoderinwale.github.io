@@ -1,4 +1,5 @@
 /* hamidah.me — small behaviours, no dependencies.
+   0. Colour scheme toggle in the nav.
    1. Reading progress: a bar at the top of the viewport scaled to how far
       the reader has scrolled (same idea as the procgrep page).
    2. Decrypt: an element marked .decrypt starts as yarn glyphs (Yarndings 12
@@ -15,6 +16,34 @@
   var reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   var alphabet = 'abcdefghijklmnopqrstuvwxyz';
   function rand() { return alphabet[Math.floor(Math.random() * alphabet.length)]; }
+
+  /* 0. Colour scheme toggle: sun in light mode, half moon in dark. The
+     choice is stored per browser. */
+  function isDark() {
+    var t = document.documentElement.getAttribute('data-theme');
+    if (t) return t === 'dark';
+    return window.matchMedia('(prefers-color-scheme: dark)').matches;
+  }
+  var themeBtn = document.querySelector('.theme');
+  function paintTheme() {
+    if (!themeBtn) return;
+    var dark = isDark();
+    themeBtn.classList.toggle('is-dark', dark);
+    themeBtn.setAttribute('aria-label', dark ? 'Switch to light mode' : 'Switch to dark mode');
+    themeBtn.setAttribute('title', dark ? 'Light mode' : 'Dark mode');
+    themeBtn.setAttribute('aria-pressed', dark ? 'true' : 'false');
+  }
+  if (themeBtn) {
+    paintTheme();
+    themeBtn.addEventListener('click', function () {
+      var next = isDark() ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-theme', next);
+      try { localStorage.setItem('theme', next); } catch (e) {}
+      paintTheme();
+      document.dispatchEvent(new Event('themechange'));
+    });
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function () { paintTheme(); document.dispatchEvent(new Event('themechange')); });
+  }
 
   /* 1. Progress bar */
   var bar = document.createElement('div');
@@ -193,9 +222,7 @@
     var ctx = canvas.getContext('2d');
     var CELL = 14, GAP = 2;
     var W, H, dpr, cols, rows, grid, next, bright;
-    function rgb() {
-      return window.matchMedia('(prefers-color-scheme: dark)').matches ? '122, 162, 255' : '37, 99, 235';
-    }
+    function rgb() { return isDark() ? '122, 162, 255' : '37, 99, 235'; }
     function size() {
       dpr = Math.min(window.devicePixelRatio || 1, 2);
       W = window.innerWidth; H = window.innerHeight;
@@ -256,7 +283,7 @@
         grid[yy * cols + xx] = 1;
       }
     }, { passive: true });
-    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', draw);
+    document.addEventListener('themechange', draw);
   })();
 
   /* 5. Mail: the address is stored reversed in data-m and assembled here, so it
