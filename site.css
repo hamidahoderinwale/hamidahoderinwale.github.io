@@ -337,6 +337,21 @@ nav.top a[aria-current="page"] {
     text-decoration-thickness: 2px;
 }
 
+/* Game of Life behind the page. The canvas sits between the frame colour
+   and the card (negative z-index in the root stacking context), so the
+   card, rail and timeline stay opaque above it. Drawn by site.js. */
+.life {
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    pointer-events: none;
+    /* Lower half only, fading in from mid-screen. */
+    -webkit-mask-image: linear-gradient(to bottom, transparent 45%, black 80%);
+    mask-image: linear-gradient(to bottom, transparent 45%, black 80%);
+}
+
 /* Reading progress: a thin bar across the top of the viewport that fills
    as the reader scrolls. Driven by site.js with a transform so it never
    causes layout. */

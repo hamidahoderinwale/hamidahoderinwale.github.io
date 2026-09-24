@@ -9,7 +9,8 @@
       letters are plain and the rest encrypted; hover or focus decrypts it.
    4. Portrait: the reveal alternates between photos on each hover; tap
       toggles it on touch screens, where there is no hover.
-   5. Mail: the address is stored reversed and assembled here. */
+   5. Mail: the address is stored reversed and assembled here.
+   6. Game of Life drawn behind the page on wide screens. */
 (function () {
   var reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   var alphabet = 'abcdefghijklmnopqrstuvwxyz';
@@ -176,6 +177,87 @@
       else portrait.classList.add('show');
     });
   }
+
+  /* 6. Game of Life behind the page: a flat, uniform grid in the lower half
+     of the frame, light blue at low alpha. Calm by design: the rules tick
+     slowly and each cell's brightness eases in and out; nothing re-seeds the
+     board, so an untouched page settles and fades; moving the pointer over
+     the frame drops a few cells in its wake. Wide screens only, a still faint
+     frame under reduced motion, paused while the tab is hidden. */
+  (function life() {
+    if (window.innerWidth < 992) return;
+    var canvas = document.createElement('canvas');
+    canvas.className = 'life';
+    canvas.setAttribute('aria-hidden', 'true');
+    document.body.appendChild(canvas);
+    var ctx = canvas.getContext('2d');
+    var CELL = 14, GAP = 2;
+    var W, H, dpr, cols, rows, grid, next, bright;
+    function rgb() {
+      return window.matchMedia('(prefers-color-scheme: dark)').matches ? '122, 162, 255' : '37, 99, 235';
+    }
+    function size() {
+      dpr = Math.min(window.devicePixelRatio || 1, 2);
+      W = window.innerWidth; H = window.innerHeight;
+      canvas.width = Math.floor(W * dpr); canvas.height = Math.floor(H * dpr);
+      cols = Math.ceil(W / CELL); rows = Math.ceil(H / CELL);
+      grid = new Uint8Array(cols * rows); next = new Uint8Array(cols * rows); bright = new Float32Array(cols * rows);
+      for (var i = 0; i < grid.length; i++) grid[i] = Math.random() < 0.12 ? 1 : 0;
+    }
+    function step() {
+      for (var y = 0; y < rows; y++) for (var x = 0; x < cols; x++) {
+        var n = 0;
+        for (var dy = -1; dy <= 1; dy++) for (var dx = -1; dx <= 1; dx++) {
+          if (!dx && !dy) continue;
+          n += grid[((y + dy + rows) % rows) * cols + ((x + dx + cols) % cols)];
+        }
+        var i = y * cols + x;
+        var alive = (grid[i] && (n === 2 || n === 3)) || (!grid[i] && n === 3) ? 1 : 0;
+        if (alive && grid[i] && Math.random() < 0.005) alive = 0;   /* slow extinction */
+        next[i] = alive;
+      }
+      var t = grid; grid = next; next = t;
+    }
+    function draw() {
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+      ctx.clearRect(0, 0, W, H);
+      var c = rgb(), s = CELL - GAP;
+      for (var y = 0; y < rows; y++) for (var x = 0; x < cols; x++) {
+        var i = y * cols + x, target = grid[i], b = bright[i];
+        if (Math.abs(target - b) > 0.01) { b += (target - b) * 0.08; bright[i] = b; } else bright[i] = b = target;
+        if (b <= 0.01) continue;
+        ctx.fillStyle = 'rgba(' + c + ',' + (b * 0.15).toFixed(3) + ')';
+        ctx.fillRect(x * CELL, y * CELL, s, s);
+      }
+    }
+    size();
+    if (reduced) { for (var k = 0; k < bright.length; k++) bright[k] = grid[k]; draw(); return; }
+    var last = 0, running = false, raf = 0;
+    function frame(t) {
+      if (!running) return;
+      if (t - last > 600) { last = t; step(); }
+      draw();
+      raf = requestAnimationFrame(frame);
+    }
+    function start() { if (running) return; running = true; raf = requestAnimationFrame(frame); }
+    function stop() { running = false; cancelAnimationFrame(raf); }
+    start();
+    document.addEventListener('visibilitychange', function () { document.hidden ? stop() : start(); });
+    var rt;
+    window.addEventListener('resize', function () { clearTimeout(rt); rt = setTimeout(size, 200); });
+    /* Pointer seeds a few cells along its path. */
+    var px = -1, py = -1;
+    window.addEventListener('pointermove', function (e) {
+      if (px >= 0 && Math.hypot(e.clientX - px, e.clientY - py) < 24) return;
+      px = e.clientX; py = e.clientY;
+      var gx = Math.floor(e.clientX / CELL), gy = Math.floor(e.clientY / CELL);
+      for (var k = 0; k < 3; k++) {
+        var xx = (gx + Math.floor(Math.random() * 3) - 1 + cols) % cols, yy = (gy + Math.floor(Math.random() * 3) - 1 + rows) % rows;
+        grid[yy * cols + xx] = 1;
+      }
+    }, { passive: true });
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', draw);
+  })();
 
   /* 5. Mail: the address is stored reversed in data-m and assembled here, so it
      appears nowhere in the HTML as written. */
