@@ -370,7 +370,7 @@ nav.top .theme .moon { display: block; }          /* light mode offers dark */
 nav.top .theme.is-dark .moon { display: none; }
 nav.top .theme.is-dark .sun { display: block; }    /* dark mode offers light */
 
-nav.top .theme:hover { color: var(--accent); }
+nav.top .theme:hover { color: var(--link-hover); }
 
 nav.top .theme:focus-visible {
     outline: 2px solid var(--accent);
